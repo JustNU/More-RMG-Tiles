@@ -843,7 +843,7 @@
         <Entity template="door_wood_01" id="0" pos="4.50001192 0 5.12499046" rot="-1 0 -1.2665987e-07 0 1 0 1.2665987e-07 0 -1" group="3" layerMask="32"/>
         <Entity template="door_frame_wood_01" id="0" pos="4.50001192 0 5.12499046" rot="-1 0 -1.2665987e-07 0 1 0 1.2665987e-07 0 -1" group="3" layerMask="32"/>
     </Prefab>
-    <Prefab name="MRGMT_rescue_at_dawn_bedroom_5x4" tags="bedroom,room" themes="residential,apartment" width="5.2500582" height="4.2500019" formatVersion="2" minAnchors="1" maxAnchors="3">
+    <Prefab name="MRGMT_rescue_at_dawn_bedroom_5x4" tags="room,bedroom" themes="residential,apartment" width="5.2500582" height="4.2500019" formatVersion="2" minAnchors="1" maxAnchors="3">
         <Terrain width="20" height="16">
             <LayerData>AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAA=</LayerData>
             <MaterialData>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAE=</MaterialData>
@@ -900,9 +900,9 @@
         <Entity template="door_threshold_wood_01" id="0" pos="0.125 0 3.12494659" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" group="3" layerMask="4"/>
         <Entity template="door_wood_01" id="0" pos="0.125 0 3.12494659" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" group="3" layerMask="4"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.125 0 3.12494659" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" group="3" layerMask="4"/>
-        <Entity template="Wall" id="0" pos="0.125058174 0 0.375001907" rot="1 0 0 0 1 0 0 0 1" layerMask="4">
+        <Entity template="Wall" id="0" pos="2.6250577 0 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="4">
             <Wall numTrees="1" numNodes="6">
-                <Branch parent="0" p0="0 0" p1="0 -0.250001907" p2="5 -0.250001907" p3="5 3.75" p4="-9.53674316e-07 3.75" p5="0 0.25"/>
+                <Branch parent="0" p0="0 0" p1="2.50000048 0" p2="2.50000048 4.00000191" p3="-2.49999952 4.00000191" p4="-2.49999952 0" p5="0 0"/>
             </Wall>
         </Entity>
     </Prefab>
@@ -1549,13 +1549,13 @@
             <SoundShader effectID="EFX_REVERB_HALLWAY_SMALL" defaultIndoors="false" defaultOutdoors="false"/>
         </Entity>
     </Prefab>
-    <Prefab name="MRGMT_the_jihadi_live_show_bedroom2_7x4" tags="room,bedroom" themes="apartment,residential" width="7.25" height="4.4336948" formatVersion="2" minAnchors="1">
+    <Prefab name="MRGMT_the_jihadi_live_show_bedroom2_7x4" tags="room,bedroom" themes="residential,apartment" width="7.25" height="4.4336948" formatVersion="2" minAnchors="1">
         <Terrain width="28" height="16" LayerConstant="255">
             <Materials>
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125000954 0.00100000005 0.222492218" rot="1 0 0 0 1 0 0 0 1" layerMask="16" tileNameHash="2000770634">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125000954 0.00100000005 0.222492218" rot="1 0 0 0 1 0 0 0 1" layerMask="16" tileNameHash="1135921280">
             <PolyShape num="6" p0="0 0 0" p1="7.00000048 0 0" p2="7.00000048 0 4.00000048" p3="4.76837158e-07 0 4.00000048" p4="4.76837158e-07 0 2.00000024" p5="0 0 0"/>
         </Entity>
         <Entity template="kitchen_plate_01" id="0" pos="4.77048492 2.03517151 3.46630287" rot="1 0 0 0 1 0 0 0 1" layerMask="16"/>
@@ -1718,13 +1718,13 @@
         <Entity template="door_flat_01" id="0" pos="0.187940955 0 6.12508202" rot="1.2665987e-07 0 1 0 1 0 -1 0 1.2665987e-07" group="2" layerMask="16"/>
         <Entity template="door_frame_flat_01" id="0" pos="0.187940955 0 6.12508202" rot="-1.2665987e-07 0 -1 0 1 0 1 0 -1.2665987e-07" group="2" layerMask="16"/>
     </Prefab>
-    <Prefab name="MRGMT_the_jihadi_live_show_hallway_6x2" tags="room,hallway" themes="apartment,residential" width="6.250001" height="2.2500172" formatVersion="2" minAnchors="2">
+    <Prefab name="MRGMT_the_jihadi_live_show_hallway_6x2" tags="room,hallway" themes="residential,apartment" width="6.250001" height="2.2500172" formatVersion="2" minAnchors="2">
         <Terrain width="24" height="8" LayerConstant="255">
             <Materials>
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125017166" rot="1 0 0 0 1 0 0 0 1" layerMask="16" tileNameHash="3331207667">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125017166" rot="1 0 0 0 1 0 0 0 1" layerMask="16" tileNameHash="664237337">
             <PolyShape num="5" p0="0 0 0" p1="6.00000095 0 0" p2="6.00000095 0 1.99999809" p3="0 0 1.99999809" p4="0 0 0"/>
         </Entity>
         <Entity template="wardrobe_01" id="0" pos="5.6351862 0.860000014 1.11952209" rot="-1 8.74227766e-08 0 8.74227766e-08 1 8.74227766e-08 7.64274186e-15 8.74227766e-08 -1" layerMask="16"/>
@@ -1741,11 +1741,6 @@
             <PolyShape num="5" p0="0 0 0" p1="1.66893005e-06 0 -1.75000286" p2="5.75000048 0 -1.75000238" p3="5.75000048 0 -2.14576721e-06" p4="0 0 0"/>
             <SoundShader effectID="EFX_REVERB_HALLWAY_SMALL" defaultIndoors="false" defaultOutdoors="false"/>
         </Entity>
-        <Entity template="Wall" id="0" pos="0.125000477 0 0.375017166" rot="1 0 0 0 1 0 0 0 1" layerMask="16">
-            <Wall numTrees="1" numNodes="6">
-                <Branch parent="0" p0="0 0" p1="0 -0.25" p2="6.00000048 -0.25" p3="6.00000048 1.75" p4="0 1.75" p5="0 0.25"/>
-            </Wall>
-        </Entity>
         <Entity template="door_threshold_flat_01" id="0" pos="0.125 0 1.12509918" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" group="1" layerMask="16"/>
         <Entity template="door_flat_01" id="0" pos="0.125 0 1.12509918" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" group="1" layerMask="16"/>
         <Entity template="door_frame_flat_01" id="0" pos="0.125 0 1.12509918" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" group="1" layerMask="16"/>
@@ -1757,6 +1752,11 @@
         <Entity template="door_threshold_wood_01" id="0" pos="1.12496185 0 0.125" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024" group="2" layerMask="16"/>
         <Entity template="door_frame_wood_01" id="0" pos="1.12496185 0 0.125" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024" group="2" layerMask="16"/>
         <Entity template="door_wood_01" id="0" pos="1.12496185 0 0.125" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024" group="2" layerMask="16"/>
+        <Entity template="Wall" id="0" pos="2.5 0 0.125017166" rot="1 0 0 0 1 0 0 0 1" layerMask="16">
+            <Wall numTrees="1" numNodes="6">
+                <Branch parent="0" p0="0 0" p1="3.62500095 0" p2="3.62500095 2" p3="-2.37499952 2" p4="-2.37499952 0" p5="0 0"/>
+            </Wall>
+        </Entity>
     </Prefab>
     <Prefab name="MRGMT_the_jihadi_live_show_kitchen_6x4" tags="room,kitchen" themes="apartment,residential" width="6.25" height="3.7500381" formatVersion="2" minAnchors="1">
         <Terrain width="24" height="14" LayerConstant="16711680">
