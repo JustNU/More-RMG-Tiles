@@ -446,7 +446,7 @@
         <Entity template="door_wood_01" id="0" pos="1.12508488 0 4.12498665" rot="1 0 -1.7136334e-07 0 1 0 1.7136334e-07 0 1" group="1" layerMask="32"/>
         <Entity template="door_frame_wood_01" id="0" pos="1.12508488 0 4.12498665" rot="1 0 -1.7136334e-07 0 1 0 1.7136334e-07 0 1" group="1" layerMask="32"/>
     </Prefab>
-    <Prefab name="MRGMT_killing_time_bathroom_2.5x3.5" tags="room,bathroom" themes="compound" width="2.75" height="3.75" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRGMT_killing_time_bathroom_2.5x3.5" tags="room,bathroom" themes="residential,apartment" width="2.75" height="3.75" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="10" height="14" LayerConstant="16711680">
             <Materials>
                 <Material>asphalt</Material>
@@ -2028,7 +2028,7 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRGMT_why_we_fight_bathroom_2.5x2.5" tags="room,bathroom" themes="compound" width="2.75" height="2.75" formatVersion="2" minAnchors="1">
+    <Prefab name="MRGMT_why_we_fight_bathroom_2.5x2.5" tags="room,bathroom" themes="residential,apartment" width="2.75" height="2.75" formatVersion="2" minAnchors="1">
         <Terrain width="10" height="10" LayerConstant="65280">
             <Materials>
                 <Material>asphalt</Material>
