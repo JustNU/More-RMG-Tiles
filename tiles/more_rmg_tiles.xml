@@ -750,7 +750,7 @@
             <Light color="FFFFFF" radiusMeters="5.4000001" limitType="Box" limitX="3.075" limitXNeg="1.0750005" limitY="3.825002" limitYNeg="0.94999808" colorMultiplier="1.76" isIndoorLight="false" startDisabled="false"/>
         </Entity>
     </Prefab>
-    <Prefab name="MRGMT_killing_time_sleepingquaters1_3.5x4.5" tags="room,sleepquart" themes="compound" width="3.75" height="4.75" formatVersion="2" minAnchors="1">
+    <Prefab name="MRGMT_killing_time_sleepingquaters_3.5x4.5" tags="room,sleepquart" themes="compound" width="3.75" height="4.75" formatVersion="2" minAnchors="1">
         <Terrain width="14" height="18" LayerConstant="16711680">
             <Materials>
                 <Material>asphalt</Material>
@@ -796,7 +796,7 @@
         <Entity template="door_wood_01" id="0" pos="1.12508774 0 4.62498093" rot="1 0 -1.56462193e-07 0 1 0 1.56462193e-07 0 1" group="2" layerMask="32"/>
         <Entity template="door_frame_wood_01" id="0" pos="1.12508774 0 4.62498093" rot="1 0 -1.56462193e-07 0 1 0 1.56462193e-07 0 1" group="2" layerMask="32"/>
     </Prefab>
-    <Prefab name="MRGMT_killing_time_sleepingquaters2_5.5x5" tags="room,sleepquart" themes="compound" width="5.7500563" height="5.25" formatVersion="2" minAnchors="1" maxAnchors="3">
+    <Prefab name="MRGMT_killing_time_bedroom_5.5x5" tags="room,bedroom" themes="apartment,residential" width="5.7500563" height="5.25" formatVersion="2" minAnchors="1" maxAnchors="3">
         <Terrain width="22" height="20" LayerConstant="16711680">
             <Materials>
                 <Material>asphalt</Material>
@@ -2392,7 +2392,7 @@
             </Human>
         </Entity>
     </Prefab>
-    <Prefab name="MRGMT_why_we_fight_sleepingquaters_4.5x3" tags="room,sleepquart" themes="compound" width="4.750001" height="3.2500339" formatVersion="2" minAnchors="1">
+    <Prefab name="MRGMT_why_we_fight_bedroom_4.5x3" tags="room,bedroom" themes="apartment,residential" width="4.750001" height="3.2500339" formatVersion="2" minAnchors="1">
         <Terrain width="18" height="12" LayerConstant="65280">
             <Materials>
                 <Material>asphalt</Material>
