@@ -1,5 +1,5 @@
 <Tiles>
-    <Prefab name="MRGMT_path_to_suck_less_bathroom_1.5x2" tags="room,bathroom" themes="compound" width="1.7500448" height="2.2500172" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRGMT_path_to_suck_less_bathroom_1.5x2" tags="room,bathroom" themes="residential,apartment" width="1.7500448" height="2.2500172" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="6" height="8" LayerConstant="16711680">
             <Materials>
                 <Material>cement_to_carpet_darkred</Material>
