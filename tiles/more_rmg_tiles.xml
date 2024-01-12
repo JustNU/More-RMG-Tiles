@@ -2126,27 +2126,29 @@
         <Entity template="door_flat_01" id="0" pos="2.62495995 0 3.6250391" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="3" layerMask="2"/>
         <Entity template="door_frame_flat_01" id="0" pos="2.62495995 0 3.6250391" rot="-1 0 8.94069672e-08 0 1 0 -8.94069672e-08 0 -1" group="3" layerMask="2"/>
     </Prefab>
-    <Prefab name="MRGMT_why_we_fight_jail_4x4.5" tags="room,jail" themes="compound" width="4.270462" height="4.75" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRGMT_why_we_fight_jail_4x4.5" tags="room,jail" themes="compound" width="4.270462" height="4.7500019" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="16" height="18" LayerConstant="65280">
             <Materials>
                 <Material>asphalt</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2" tileNameHash="261857006">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2" tileNameHash="359765628">
             <PolyShape num="5" p0="0 0 0" p1="4.00000286 0 1.90734863e-06" p2="4.00000286 0 4.5" p3="0 0 4.5" p4="0 0 0"/>
         </Entity>
+        <Entity template="door_threshold_grate_01" id="0" pos="2 0 2.125" rot="1 0 0 0 1 0 0 0 1" group="1" layerMask="2"/>
+        <Entity template="door_grate_01_locked" id="0" pos="2 0 2.125" rot="1 0 0 0 1 0 0 0 1" group="1" layerMask="2"/>
+        <Entity template="door_threshold_grate_01" id="0" pos="0.75 0 2.125" rot="1 0 0 0 1 0 0 0 1" group="2" layerMask="2"/>
+        <Entity template="door_grate_01_locked" id="0" pos="0.75 0 2.125" rot="1 0 0 0 1 0 0 0 1" group="2" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="0" pos="2 0 0.75" rot="1 0 0 0 1 0 0 0 1" group="3" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="0" pos="2 0.163338736 1.25" rot="1 0 0 0 1 0 0 0 1" group="3" layerMask="2" editorAutoHeight="true"/>
+        <Entity template="Alt. Spawn Point" id="0" pos="0.75 0 0.75" rot="1 0 0 0 1 0 0 0 1" group="4" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="0" pos="0.75 0.163338736 1.25" rot="1 0 0 0 1 0 0 0 1" group="4" layerMask="2" editorAutoHeight="true"/>
         <Entity template="Danger Area" id="0" pos="0.125 0.100000001 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
             <PolyShape num="5" p0="0 0 0" p1="0 0 4.50000048" p2="4.00000286 0 4.50000048" p3="4.00000286 0 0" p4="0 0 0"/>
         </Entity>
         <Entity template="door_threshold_grate_01" id="0" pos="0.125 0 3.625" rot="9.68575478e-08 0 -1.00000024 0 1 0 1.00000024 0 9.68575478e-08" layerMask="2"/>
         <Entity template="door_grate_01_locked" id="0" pos="0.125 0 3.625" rot="9.68575478e-08 0 -1.00000024 0 1 0 1.00000024 0 9.68575478e-08" layerMask="2"/>
         <Entity template="door_frame_grate_01" id="0" pos="0.125 0 3.62500191" rot="9.68575478e-08 0 -1.00000024 0 1 0 1.00000024 0 9.68575478e-08" layerMask="2"/>
-        <Entity template="door_threshold_grate_01" id="0" pos="0.75 0 2.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="door_grate_01" id="0" pos="0.75 0 2.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="door_frame_grate_01" id="0" pos="0.75 0 2.12500191" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="door_threshold_grate_01" id="0" pos="2 0 2.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="door_grate_01" id="0" pos="2 0 2.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="door_frame_grate_01" id="0" pos="2 0 2.12500191" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
         <Entity template="door_threshold_grate_01" id="0" pos="3.25 0 2.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
         <Entity template="door_grate_01_locked" id="0" pos="3.25 0 2.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
         <Entity template="door_frame_grate_01" id="0" pos="3.25 0 2.12500191" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
@@ -2154,20 +2156,15 @@
             <PolyShape num="5" p0="0 0 0" p1="0 0 4.25000048" p2="3.75000095 0 4.25000048" p3="3.75000095 0 0" p4="0 0 0"/>
             <SoundShader effectID="EFX_REVERB_BATH" defaultIndoors="false" defaultOutdoors="false"/>
         </Entity>
-        <Entity template="Wall" id="0" pos="0.125 0 0.5" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Wall numTrees="1" numNodes="12">
-                <Branch parent="0" p0="0 0" p1="0 -0.375" p2="1.25000095 -0.375" p3="1.25000095 1.62500048"/>
-                <Branch parent="2" p4="2.50000095 -0.375" p5="2.50000095 1.62500048"/>
-                <Branch parent="4" p6="4.00000286 -0.375" p7="4.00000191 1.62500191" p8="4.00000286 4.12500048" p9="0 4.12500048" p10="0 0.125"/>
-                <Branch parent="7" p11="3.75 1.62500191"/>
-            </Wall>
-        </Entity>
-        <Entity template="Hostage" id="0" pos="3.375 0 0.75" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+        <Entity template="Hostage" id="0" pos="3.375 0 0.75" rot="1 0 0 0 1 0 0 0 1" group="5" layerMask="2">
+            <Targets num="2" id0="5" id1="7"/>
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="bucket_metal_02" id="0" pos="3.375 0.163338736 1.25" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
+        <Entity template="bucket_metal_02" id="0" pos="3.375 0.163338736 1.25" rot="1 0 0 0 1 0 0 0 1" group="5" layerMask="2">
+            <Targets num="2" id0="6" id1="8"/>
+        </Entity>
         <Entity template="chair_01_02" id="0" pos="3.625 0.700065613 3.5" rot="-1 0 -9.68575478e-08 0 1 0 9.68575478e-08 0 -1" layerMask="2"/>
         <Entity template="Type 56 Folded pickup" id="0" pos="3.875 0.0289654955 3.125" rot="-0.939693391 -0.342020899 1.24040824e-07 2.16067079e-07 -5.36441803e-07 1.00000119 -0.342020631 0.939694345 2.90938203e-07" layerMask="2" editorAutoHeight="false"/>
         <Entity template="clothes_pile_04" id="0" pos="3.625 0 3.25" rot="2.16066837e-07 0 -1.00000036 0 1 0 1.00000036 0 2.16066837e-07" layerMask="2" editorAutoHeight="false"/>
@@ -2176,16 +2173,23 @@
         </Entity>
         <Entity template="decal_scratches_large_03" id="0" pos="2.8945961 0.00999999978 2.2035408" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
         <Entity template="decal_stain_large_02" id="0" pos="3.43046188 0.00999999978 1.96531868" scale="0.839999974" rot="1 0 0 -0 1 0 0 -0 1" layerMask="2"/>
-        <Entity template="door_threshold_grate_01" id="0" pos="1.12504196 0 4.62495232" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="1" layerMask="2"/>
-        <Entity template="door_grate_01_locked" id="0" pos="1.12504196 0 4.62495232" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="1" layerMask="2"/>
-        <Entity template="door_frame_grate_01" id="0" pos="1.12504768 0 4.62495422" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="1" layerMask="2"/>
-        <Entity template="door_threshold_grate_01" id="0" pos="2.62504196 0 4.62495613" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="2" layerMask="2"/>
-        <Entity template="door_grate_01_locked" id="0" pos="2.62504196 0 4.62495613" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="2" layerMask="2"/>
-        <Entity template="door_frame_grate_01" id="0" pos="2.62504768 0 4.62495804" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="2" layerMask="2"/>
-        <Entity template="Suicide Bomber" id="0" pos="2.125 0 3.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+        <Entity template="door_threshold_grate_01" id="0" pos="1.12504196 0 4.62495232" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="6" layerMask="2"/>
+        <Entity template="door_grate_01_locked" id="0" pos="1.12504196 0 4.62495232" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="6" layerMask="2"/>
+        <Entity template="door_frame_grate_01" id="0" pos="1.12504768 0 4.62495422" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="6" layerMask="2"/>
+        <Entity template="door_threshold_grate_01" id="0" pos="2.62504196 0 4.62495613" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="7" layerMask="2"/>
+        <Entity template="door_grate_01_locked" id="0" pos="2.62504196 0 4.62495613" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="7" layerMask="2"/>
+        <Entity template="door_frame_grate_01" id="0" pos="2.62504768 0 4.62495804" rot="1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 1" group="7" layerMask="2"/>
+        <Entity template="Suicide Bomber" id="0" pos="2.125 0 3" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="0" chanceToInvestigate="0"/>
             </Human>
+        </Entity>
+        <Entity template="Wall" id="0" pos="2 0 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <Wall numTrees="1" numNodes="10">
+                <Branch parent="0" p0="0 0" p1="0.625 0" p2="2.12500191 0" p3="2.12500191 4.50000191" p4="-1.875 4.50000191" p5="-1.875 0" p6="-0.625 0" p7="0 0"/>
+                <Branch parent="6" p8="-0.625 2.00000191"/>
+                <Branch parent="1" p9="0.625 2.00000191"/>
+            </Wall>
         </Entity>
     </Prefab>
     <Prefab name="MRGMT_why_we_fight_jailcell_3x4" tags="jail_cell" themes="compound" width="3.6371555" height="4.2500019" formatVersion="2" noEnemies="true" minAnchors="1" maxAnchors="1">
