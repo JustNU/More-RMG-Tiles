@@ -2143,6 +2143,14 @@
         <Entity template="Alt. Spawn Point" id="0" pos="2 0.163338736 1.25" rot="1 0 0 0 1 0 0 0 1" group="3" layerMask="2" editorAutoHeight="true"/>
         <Entity template="Alt. Spawn Point" id="0" pos="0.75 0 0.75" rot="1 0 0 0 1 0 0 0 1" group="4" layerMask="2"/>
         <Entity template="Alt. Spawn Point" id="0" pos="0.75 0.163338736 1.25" rot="1 0 0 0 1 0 0 0 1" group="4" layerMask="2" editorAutoHeight="true"/>
+        <Entity template="Wall" id="0" pos="2 0 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <Wall numTrees="1" numNodes="12">
+                <Branch parent="0" p0="0 0" p1="0.625 0" p2="2.12500191 0" p3="2.12500191 2.00000191" p4="2.12500191 4.50000191" p5="-1.875 4.50000191" p6="-1.875 0" p7="-0.625 0" p8="0 0"/>
+                <Branch parent="7" p9="-0.625 2.00000191"/>
+                <Branch parent="3" p10="1.875 2.00000191"/>
+                <Branch parent="1" p11="0.625 2.00000191"/>
+            </Wall>
+        </Entity>
         <Entity template="Danger Area" id="0" pos="0.125 0.100000001 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
             <PolyShape num="5" p0="0 0 0" p1="0 0 4.50000048" p2="4.00000286 0 4.50000048" p3="4.00000286 0 0" p4="0 0 0"/>
         </Entity>
@@ -2183,13 +2191,6 @@
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="0" chanceToInvestigate="0"/>
             </Human>
-        </Entity>
-        <Entity template="Wall" id="0" pos="2 0 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Wall numTrees="1" numNodes="10">
-                <Branch parent="0" p0="0 0" p1="0.625 0" p2="2.12500191 0" p3="2.12500191 4.50000191" p4="-1.875 4.50000191" p5="-1.875 0" p6="-0.625 0" p7="0 0"/>
-                <Branch parent="6" p8="-0.625 2.00000191"/>
-                <Branch parent="1" p9="0.625 2.00000191"/>
-            </Wall>
         </Entity>
     </Prefab>
     <Prefab name="MRGMT_why_we_fight_jailcell_3x4" tags="jail_cell" themes="compound" width="3.6371555" height="4.2500019" formatVersion="2" noEnemies="true" minAnchors="1" maxAnchors="1">
