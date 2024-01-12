@@ -2656,14 +2656,8 @@
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125040054 0.00100000005 0.125003815" rot="1 0 0 0 1 0 0 0 1" layerMask="1" tileNameHash="4079976887">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125040054 0.00100000005 0.125003815" rot="1 0 0 0 1 0 0 0 1" layerMask="1" tileNameHash="2790634277">
             <PolyShape num="5" p0="0 0 0" p1="2 0 0" p2="2 0 3" p3="0 0 3" p4="0 0 0"/>
-        </Entity>
-        <Entity template="Wall" id="0" pos="0.125040054 0 0.125003815" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
-            <Wall numTrees="1" numNodes="6">
-                <Branch parent="0" p0="0 0" p1="2 0" p2="2 3" p3="0 3" p4="0 0.5"/>
-                <Branch parent="0" p5="0 0.25"/>
-            </Wall>
         </Entity>
         <Entity template="door_threshold_wood_01" id="0" pos="0.125 0 1.12504101" rot="2.16066837e-07 0 -1.00000036 0 1 0 1.00000036 0 2.16066837e-07" layerMask="1"/>
         <Entity template="door_wood_01" id="0" pos="0.125 0 1.12504101" rot="2.16066837e-07 0 -1.00000036 0 1 0 1.00000036 0 2.16066837e-07" layerMask="1"/>
@@ -2684,6 +2678,11 @@
         <Entity template="door_threshold_wood_01" id="0" pos="1.12503815 0 0.125" rot="1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 1" group="1" layerMask="1"/>
         <Entity template="door_wood_01" id="0" pos="1.12503815 0 0.125" rot="1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 1" group="1" layerMask="1"/>
         <Entity template="door_frame_wood_01" id="0" pos="1.12503815 0 0.125" rot="1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 1" group="1" layerMask="1"/>
+        <Entity template="Wall" id="0" pos="1.12504005 0 3.12500286" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="6">
+                <Branch parent="0" p0="0 0" p1="-1 0" p2="-1 -2.99999905" p3="1 -2.99999905" p4="1 0" p5="0 0"/>
+            </Wall>
+        </Entity>
     </Prefab>
     <Prefab name="MRGMT_wood_doors_are_easy_entrance_9x6" tags="kitchen,living,entrance" themes="apartment,residential" width="9.2500286" height="6.2500401" formatVersion="2" minAnchors="2" maxAnchors="4">
         <Terrain width="36" height="24">
