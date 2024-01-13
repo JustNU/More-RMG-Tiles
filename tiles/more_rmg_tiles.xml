@@ -1679,7 +1679,7 @@
             </Materials>
         </Terrain>
         <Entity template="RMG Tile Shape" id="0" pos="0.187941074 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="1891273984">
-            <PolyShape num="5" p0="0 0 0" p1="3 0 0.25" p2="3 0 7.99999809" p3="0 0 7.99999809" p4="0 0 0"/>
+            <PolyShape num="5" p0="0 0 0" p1="3 0 0" p2="3 0 7.99999809" p3="0 0 7.99999809" p4="0 0 0"/>
         </Entity>
         <Entity template="Floor" id="0" pos="1.18794084 0 5.12499809" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Grunt Insurgent Weaponless" id="0" pos="1.68794203 0 1.5" rot="0.99619472 0 0.0871558264 0 1 0 -0.0871558264 0 0.99619472">
@@ -1740,16 +1740,20 @@
         <Entity template="Alt. Spawn Point" id="0" pos="2.10047626 0 4.69031334" rot="-0.0871556997 0 0.99619472 0 1 0 -0.99619472 0 -0.0871556997"/>
         <Entity template="Alt. Spawn Point" id="0" pos="2.56294155 0 1.5" rot="0.984807789 0 -0.173648104 0 1 0 0.173648104 0 0.984807789"/>
         <Entity template="Alt. Spawn Point" id="0" pos="0.81294179 0 7.24999809" rot="0.173648268 0 0.984807849 0 1 0 -0.984807849 0 0.173648268"/>
-        <Entity template="door_threshold_flat_01" id="0" pos="1.68798161 0 8.12504005" rot="1 0 -2.75671454e-07 0 1 0 2.75671454e-07 0 1" group="3"/>
-        <Entity template="door_frame_flat_01" id="0" pos="1.68798161 0 8.12504005" rot="1 0 -2.75671454e-07 0 1 0 2.75671454e-07 0 1" group="3"/>
-        <Entity template="door_flat_01" id="0" pos="1.68798161 0 8.12504005" rot="-1 0 2.75671454e-07 0 1 0 -2.75671454e-07 0 -1" group="3"/>
-        <Entity template="window_glass" id="0" pos="1.68794131 0 0.125" rot="1 0 0 -0 1 0 0 -0 1" group="4" layerMask="1"/>
-        <Entity template="window_frame" id="0" pos="1.68794131 8.8817842e-16 0.125" rot="1 0 0 0 1 0 0 0 1" group="4" layerMask="1"/>
         <Entity template="Wall" id="0" pos="2.81294107 0 0.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="6">
                 <Branch parent="0" p0="0 0" p1="0.375 0" p2="0.375 7.99999809" p3="-2.625 7.99999809" p4="-2.625 0" p5="0 0"/>
             </Wall>
         </Entity>
+        <Entity template="Effect Zone" id="0" pos="0.312940836 0 8.00000191" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="5" p0="0 0 0" p1="0 0 -7.75" p2="2.75000024 0 -7.75" p3="2.75000024 0 0" p4="0 0 0"/>
+            <SoundShader effectID="EFX_REVERB_HALLWAY_SMALL" defaultIndoors="false" defaultOutdoors="false"/>
+        </Entity>
+        <Entity template="door_threshold_flat_01" id="0" pos="1.68790174 0 8.12504005" rot="-1.00000143 0 -2.98023224e-08 0 1 0 2.98023224e-08 0 -1.00000143"/>
+        <Entity template="door_flat_01" id="0" pos="1.68790174 0 8.12504005" rot="1.00000143 0 -6.70552254e-08 0 1 0 6.70552254e-08 0 1.00000143"/>
+        <Entity template="door_frame_flat_01" id="0" pos="1.68790174 0 8.12504005" rot="-1.00000143 0 6.70552254e-08 0 1 0 -6.70552254e-08 0 -1.00000143"/>
+        <Entity template="window_glass" id="0" pos="1.68794131 0 0.125" rot="1 0 0 -0 1 0 0 -0 1" group="3" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="1.68794131 8.8817842e-16 0.125" rot="1 0 0 0 1 0 0 0 1" group="3" layerMask="1"/>
     </Prefab>
     <Prefab name="MRGMT_the_jihadi_live_show_hallway_6x2" tags="room,hallway" themes="residential,apartment" width="6.250001" height="2.2500172" formatVersion="2" minAnchors="2">
         <Terrain width="24" height="8" LayerConstant="255">
