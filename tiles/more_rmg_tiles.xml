@@ -1163,7 +1163,7 @@
         <Entity template="debris_plate_broken" id="0" pos="2.24576759 0.0125098154 2.87827873" rot="1 0 2.75671454e-07 0 1 0 -2.75671454e-07 0 1"/>
         <Entity template="decal_scratches_small_04" id="0" pos="2.12499905 0.00999999978 4.50002098" rot="1 0 0 0 1 0 0 0 1"/>
     </Prefab>
-    <Prefab name="MRGMT_rescue_at_dawn_jailcell_2x5" tags="room,jail" themes="compound" width="2.7854576" height="5.2500019" formatVersion="2" noEnemies="true" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRGMT_rescue_at_dawn_jail_2x5" tags="room,jail" themes="compound" width="2.7854576" height="5.2500019" formatVersion="2" noEnemies="true" minAnchors="1" maxAnchors="1">
         <Terrain width="8" height="20" LayerConstant="16711680">
             <Materials>
                 <Material>asphalt</Material>
