@@ -2110,7 +2110,7 @@
         <Entity template="window_frame" id="0" pos="1.12503242 8.8817842e-16 3.62500095" rot="1 0 0 0 1 0 0 0 1" group="5" layerMask="1"/>
         <Entity template="curtain_02_01" id="0" pos="1.12503242 0 3.50000095" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024" group="5" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRGMT_why_we_fight_jail1_4x4.5" tags="room,jail" themes="compound" width="4.270462" height="4.7500019" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRGMT_why_we_fight_jail_4x4.5" tags="room,jail" themes="compound" width="4.270462" height="4.7500019" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="16" height="18" LayerConstant="65280">
             <Materials>
                 <Material>asphalt</Material>
@@ -2186,7 +2186,7 @@
         <Entity template="Alt. Spawn Point" id="0" pos="0.874998093 0 4.00000191" rot="-0.57357657 0 0.819151998 0 1 0 -0.819151998 0 -0.57357657"/>
         <Entity template="Alt. Spawn Point" id="0" pos="3.49999809 0 2.62500191" rot="0.939692676 0 -0.342020094 0 1 0 0.342020094 0 0.939692676"/>
     </Prefab>
-    <Prefab name="MRGMT_why_we_fight_jail2_3x4" tags="room,jail" themes="compound" width="3.7633848" height="4.5025692" formatVersion="2" noEnemies="true" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRGMT_why_we_fight_jailcell_3x4" tags="jail_cell" themes="compound" width="3.7633848" height="4.5025692" formatVersion="2" noEnemies="true" minAnchors="1" maxAnchors="1">
         <Terrain width="12" height="16" LayerConstant="65280">
             <Materials>
                 <Material>asphalt</Material>
