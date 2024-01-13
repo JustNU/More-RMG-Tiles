@@ -2053,22 +2053,19 @@
         <Entity template="door_threshold_wood_01" id="0" pos="1.12503242 0 3.625" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="door_wood_01" id="0" pos="1.12503242 0 3.625" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="door_frame_wood_01" id="0" pos="1.12503242 0 3.625" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="Trigger" id="0" pos="2.37516212 0.0299999714 1.56516838" rot="0.309016854 0 0.951056659 0 1 -0 -0.95105654 0 0.309016824">
-            <Trigger noiseRadius="17.799999" noiseSuspicion="true" triggerDelay="200"/>
-        </Entity>
         <Entity template="Light Point" id="0" pos="2.75003242 2.0999999 2.125" rot="1 0 0 0 1 0 0 0 1">
             <Light color="FFFFFF" radiusMeters="6.1999998" limitType="Box" limitX="2.7" limitXNeg="2.950002" limitY="0.94999999" limitYNeg="1.575001" colorMultiplier="0.82999998" isIndoorLight="false" startDisabled="false"/>
         </Entity>
         <Entity template="wall_carpet" id="0" pos="4.25003242 0.846005738 0.25" rot="0 0 -1.00000024 0 1 0 1.00000024 0 0"/>
         <Entity template="sofa_02" id="0" pos="4.00003242 0.35134995 0.75" rot="9.68575478e-08 0 -1.00000012 0 1 0 1.00000012 0 9.68575478e-08"/>
         <Entity template="Grunt Insurgent" id="0" pos="4.00003242 0 1.75" rot="1 0 0 0 1 0 0 0 1">
-            <Targets num="2" id0="10" id1="35"/>
+            <Targets num="2" id0="9" id1="34"/>
             <Human needsRescue="false">
                 <Traits chanceToInvestigate="0" chanceToAmbush="1" chanceToBlindFire="1"/>
             </Human>
         </Entity>
         <Entity template="Grunt Insurgent" id="0" pos="1.75003242 0 1.625" rot="0.173648193 0 -0.98480773 0 1 0 0.98480773 0 0.173648193">
-            <Targets num="1" id0="36"/>
+            <Targets num="1" id0="35"/>
             <Human needsRescue="false">
                 <Traits chanceToInvestigate="0" chanceToAmbush="1" chanceToBlindFire="0"/>
             </Human>
