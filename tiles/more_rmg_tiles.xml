@@ -492,10 +492,10 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRGMT_killing_time_bathroom_2.5x3.5" tags="room,bathroom" themes="apartment,residential" width="2.7500005" height="3.75" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRGMT_killing_time_bathroom_2.5x3.5" tags="bathroom,room" themes="residential,apartment" width="2.7500005" height="3.75" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="10" height="14" LayerConstant="16711680">
             <Materials>
-                <Material>asphalt</Material>
+                <Material>tiles</Material>
             </Materials>
         </Terrain>
         <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="1329380978">
@@ -882,13 +882,13 @@
         <Entity template="window_glass" id="0" pos="1.125 0 0.125" rot="-1 0 0 0 1 0 0 0 -1" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="1.125 8.8817842e-16 0.125" rot="-1 0 0 0 1 0 0 0 -1" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRGMT_killing_time_bedroom_5.5x5" tags="room,bedroom" themes="apartment,residential" width="5.7500553" height="5.25" formatVersion="2" minAnchors="1" maxAnchors="2">
-        <Terrain width="22" height="20" LayerConstant="16711680">
+    <Prefab name="MRGMT_killing_time_bedroom_5.5x5" tags="bedroom,room" themes="residential,apartment" width="5.7500553" height="5.25" formatVersion="2" minAnchors="1" maxAnchors="2">
+        <Terrain width="22" height="20" LayerConstant="16776960">
             <Materials>
-                <Material>asphalt</Material>
+                <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="52265254">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="2312799738">
             <PolyShape num="5" p0="0 0 0" p1="5.5 0 0" p2="5.5 0 5" p3="-5.96046448e-07 0 5" p4="0 0 0"/>
         </Entity>
         <Entity template="door_threshold_wood_01" id="0" pos="5.62504339 0 3.12497139" rot="0 0 1 0 1 -0 -1 0 0"/>
@@ -1938,7 +1938,7 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRGMT_the_jihadi_live_show_living_7x4" tags="room,living" themes="apartment,residential" width="7.2512217" height="4.2500381" formatVersion="2" minAnchors="1">
+    <Prefab name="MRGMT_the_jihadi_live_show_living_7x4" tags="room,living" themes="residential,apartment" width="7.2512217" height="4.2500381" formatVersion="2" minAnchors="1">
         <Terrain width="28" height="16" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
@@ -1962,7 +1962,7 @@
         <Entity template="table_wood_small_02_02" id="0" pos="0.751219749 0.372283846 1.25001717" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="commode_01" id="0" pos="3.3894453 0.531444609 3.62501526" rot="-2.98023224e-08 0 1.00000024 0 1 0 -1.00000024 0 -2.98023224e-08"/>
         <Entity template="camera_view_01" id="0" pos="5.75121975 1.76138401 0.875017166" rot="0.422618389 0 -0.906307697 0 1 0 0.906307697 0 0.422618389">
-            <FOVCamera>
+            <FOVCamera enabled="false">
                 <FOV degrees="45" distanceMeters="10" eyeRadiusMeters="0.30000001"/>
             </FOVCamera>
         </Entity>
@@ -2019,9 +2019,6 @@
         <Entity template="door_threshold_wood_01" id="0" pos="0.126219749 0 3.12493515" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" group="4"/>
         <Entity template="door_wood_01" id="0" pos="0.126219749 0 3.12493515" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" group="4"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.126219749 0 3.12493515" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" group="4"/>
-        <Entity template="window_glass" id="0" pos="0.125 0 3.16279984" rot="6.70552254e-08 0 -1 0 1 0 1 0 6.70552254e-08" layerMask="1"/>
-        <Entity template="window_frame" id="0" pos="0.125 0 3.16279984" rot="6.70552254e-08 0 -1 0 1 0 1 0 6.70552254e-08" layerMask="1"/>
-        <Entity template="curtain_03_01" id="0" pos="0.249999046 0 3.16279984" rot="-8.94069672e-08 0 1 0 1 0 -1 0 -8.94069672e-08" layerMask="1"/>
         <Entity template="window_glass" id="0" pos="1.62621975 0 4.12501526" rot="1 0 0 -0 1 0 0 -0 1" group="5" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="1.62621975 8.8817842e-16 4.12501526" rot="1 0 0 0 1 0 0 0 1" group="5" layerMask="1"/>
         <Entity template="curtain_02_01" id="0" pos="1.62621975 0 4.00001526" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024" group="5" layerMask="1"/>
@@ -2031,6 +2028,9 @@
         <Entity template="window_glass" id="0" pos="7.1262207 0 2.12501717" rot="-1.86264487e-07 0 1 0 1 0 -1 0 -1.86264487e-07" group="7" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="7.1262207 0 2.12501717" rot="-1.86264487e-07 0 1 0 1 0 -1 0 -1.86264487e-07" group="7" layerMask="1"/>
         <Entity template="curtain_02_01" id="0" pos="7.00121641 0 2.12502098" rot="1.86264487e-07 0 -1 0 1 0 1 0 1.86264487e-07" group="7" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="0.125 0 3.16279984" rot="6.70552254e-08 0 -1 0 1 0 1 0 6.70552254e-08" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="0.125 0 3.16279984" rot="6.70552254e-08 0 -1 0 1 0 1 0 6.70552254e-08" layerMask="1"/>
+        <Entity template="curtain_03_01" id="0" pos="0.249999046 0 3.16279984" rot="-8.94069672e-08 0 1 0 1 0 -1 0 -8.94069672e-08" layerMask="1"/>
     </Prefab>
     <Prefab name="MRGMT_the_jihadi_live_show_spawn_6.5x3" tags="spawn_entrance" themes="apartment" width="6.7499981" height="3.25" formatVersion="2" noEnemies="true" minAnchors="1">
         <Terrain width="26" height="12" LayerConstant="16711680">
@@ -2556,10 +2556,10 @@
         <Entity template="window_frame" id="0" pos="1.12503242 0 5.62499905" rot="1 0 -9.68575478e-08 0 1 0 9.68575478e-08 0 1" group="5" layerMask="1"/>
         <Entity template="curtain_02_01" id="0" pos="1.12503052 0 5.49999523" rot="-1 0 9.68575478e-08 0 1 0 -9.68575478e-08 0 -1" group="5" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRGMT_why_we_fight_bedroom_4.5x3" tags="room,bedroom" themes="apartment,residential" width="4.7500334" height="3.2500339" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRGMT_why_we_fight_bedroom_4.5x3" tags="bedroom,room" themes="residential,apartment" width="4.7500334" height="3.2500339" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="18" height="12" LayerConstant="65280">
             <Materials>
-                <Material>asphalt</Material>
+                <Material>floor_wood</Material>
             </Materials>
         </Terrain>
         <Entity template="RMG Tile Shape" id="0" pos="0.125034332 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="884106025">
@@ -2578,7 +2578,7 @@
         <Entity template="Light Point" id="0" pos="2.60743713 2.0999999 1.60740185" rot="1 0 0 0 1 0 0 0 1">
             <Light color="CAD5E7" radiusMeters="6.1999998" limitType="Box" limitX="2.3829682" limitXNeg="1.319718" limitY="1.5574019" limitYNeg="1.5925987" colorMultiplier="0.98000002" isIndoorLight="false" startDisabled="false"/>
         </Entity>
-        <Entity template="bed_single_02" id="0" pos="1.50003433 0.46609062 0.75" rot="1.00000024 0 0 0 1 0 0 0 1.00000024"/>
+        <Entity template="bed_single_02" id="0" pos="1.37503433 0.46609062 0.75" rot="1.00000024 0 0 0 1 0 0 0 1.00000024"/>
         <Entity template="door_threshold_wood_01" id="0" pos="3.12492561 0 0.125039101" rot="-1 0 2.75671482e-07 0 1 0 -2.75671482e-07 0 -1" group="1"/>
         <Entity template="door_wood_01" id="0" pos="3.12492561 0 0.125039101" rot="-1 0 2.75671482e-07 0 1 0 -2.75671482e-07 0 -1" group="1"/>
         <Entity template="door_frame_wood_01" id="0" pos="3.12492561 0 0.125037193" rot="-1 0 2.75671482e-07 0 1 0 -2.75671482e-07 0 -1" group="1"/>
