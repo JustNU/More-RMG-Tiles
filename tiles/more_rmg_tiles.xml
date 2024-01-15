@@ -910,9 +910,9 @@
                 <Traits chanceToInvestigate="0.34999999" chanceToAmbush="0.69"/>
             </Human>
         </Entity>
-        <Entity template="door_threshold_wood_01" id="0" pos="5.62505531 0 1.6250267" rot="2.23517382e-08 0 -1 0 1 0 1 0 2.23517382e-08" group="1"/>
-        <Entity template="door_wood_01" id="0" pos="5.62505531 0 1.6250267" rot="2.23517382e-08 0 -1 0 1 0 1 0 2.23517382e-08" group="1"/>
-        <Entity template="door_frame_wood_01" id="0" pos="5.62505531 0 1.6250267" rot="2.23517382e-08 0 -1 0 1 0 1 0 2.23517382e-08" group="1"/>
+        <Entity template="door_threshold_wood_01" id="0" pos="5.62505531 0 1.2500267" rot="2.23517382e-08 0 -1 0 1 0 1 0 2.23517382e-08" group="1"/>
+        <Entity template="door_wood_01" id="0" pos="5.62505531 0 1.2500267" rot="2.23517382e-08 0 -1 0 1 0 1 0 2.23517382e-08" group="1"/>
+        <Entity template="door_frame_wood_01" id="0" pos="5.62505531 0 1.2500267" rot="2.23517382e-08 0 -1 0 1 0 1 0 2.23517382e-08" group="1"/>
         <Entity template="door_threshold_wood_01" id="0" pos="0.125047684 0 1.62502861" rot="0 0 -1 0 1 0 1 -0 0" group="2"/>
         <Entity template="door_wood_01" id="0" pos="0.125047684 0 1.62502861" rot="0 0 -1 0 1 0 1 -0 0" group="2"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.125047684 0 1.62502861" rot="0 0 -1 0 1 0 1 -0 0" group="2"/>
@@ -3037,7 +3037,7 @@
         <Entity template="window_frame" id="0" pos="7.12502861 0 6.12500095" rot="-1 0 -2.68220901e-07 0 1 0 2.68220901e-07 0 -1" group="5" layerMask="1"/>
         <Entity template="Floor" id="0" pos="1.12502861 0 1.74999952" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRGMT_wood_doors_are_easy_hallway_7x2" tags="hallway,room" themes="apartment,residential" width="7.2500005" height="2.2500014" formatVersion="2" minAnchors="2">
+    <Prefab name="MRGMT_wood_doors_are_easy_hallway_7x2" tags="hallway,room" themes="residential,apartment" width="7.2500005" height="2.2500014" formatVersion="2" minAnchors="2">
         <Terrain width="28" height="8" LayerConstant="255">
             <Materials>
                 <Material>floor_wood</Material>
@@ -3050,7 +3050,7 @@
         <Entity template="door_frame_wood_01" id="0" pos="5.62499666 0 0.125000954" rot="1 0 0 0 1 0 0 0 1" group="1"/>
         <Entity template="door_wood_01" id="0" pos="5.62499666 0 0.124999046" rot="1 0 0 0 1 0 0 0 1" group="1"/>
         <Entity template="painting_01_02" id="0" pos="3.42809749 1.39999998 1.98821783" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07"/>
-        <Entity template="Veteran Insurgent" id="0" pos="1.37499666 0 1.12499952" rot="6.55651093e-07 0 1 0 1 0 -1 0 6.55651093e-07">
+        <Entity template="Veteran Insurgent" id="0" pos="2.62499714 0 1.12499952" rot="6.55651093e-07 0 1 0 1 0 -1 0 6.55651093e-07">
             <Targets num="1" id0="17"/>
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="13" chanceToInvestigate="0.28999999" chanceToAmbush="0"/>
@@ -3074,7 +3074,7 @@
                 <Traits investigateMaxDistanceMeters="13" chanceToInvestigate="0.28999999" chanceToAmbush="0"/>
             </Human>
         </Entity>
-        <Entity template="Alt. Spawn Point" id="0" pos="5.87499714 0 1.12499952" rot="-9.83476525e-07 0 -1 0 1 0 1 0 -9.83476525e-07"/>
+        <Entity template="Alt. Spawn Point" id="0" pos="4.62499714 0 1.12499952" rot="-9.83476525e-07 0 -1 0 1 0 1 0 -9.83476525e-07"/>
         <Entity template="Wall" id="0" pos="3.37500024 0 0.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="6">
                 <Branch parent="0" p0="0 0" p1="3.75000024 0" p2="3.75000024 1.99999952" p3="-3.25000024 1.99999952" p4="-3.25000024 0" p5="0 0"/>
