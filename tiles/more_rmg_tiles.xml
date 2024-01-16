@@ -936,9 +936,9 @@
         <Entity template="window_glass" id="0" pos="2.99999952 0 0.125" rot="-1 0 0 0 1 0 0 0 -1" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="2.99999952 8.8817842e-16 0.125" rot="-1 0 0 0 1 0 0 0 -1" layerMask="1"/>
         <Entity template="curtain_04_01" id="0" pos="3.62499952 0 0.25" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
-        <Entity template="Wall" id="0" pos="0.125 0 5.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="Wall" id="0" pos="5.625 0 0.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="5.5 0" p2="5.5 -5" p3="0 -5" p4="0 0"/>
+                <Branch parent="0" p0="0 0" p1="0 5" p2="-5.5 5" p3="-5.5 0" p4="0 0"/>
             </Wall>
         </Entity>
     </Prefab>
