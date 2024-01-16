@@ -882,7 +882,7 @@
         <Entity template="window_glass" id="0" pos="1.125 0 0.125" rot="-1 0 0 0 1 0 0 0 -1" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="1.125 8.8817842e-16 0.125" rot="-1 0 0 0 1 0 0 0 -1" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRGMT_killing_time_bedroom_5.5x5" tags="bedroom,room" themes="residential,apartment" width="5.7500553" height="5.25" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRGMT_killing_time_bedroom_5.5x5" tags="bedroom,room" themes="apartment,residential" width="5.7500553" height="5.25" formatVersion="2" minAnchors="1" maxAnchors="2">
         <Terrain width="22" height="20" LayerConstant="16776960">
             <Materials>
                 <Material>floor_wood</Material>
@@ -922,14 +922,14 @@
         <Entity template="Alt. Spawn Point" id="0" pos="2.62499952 0 2.875" rot="-0.642787814 0 -0.766044319 0 1 0 0.766044319 0 -0.642787814"/>
         <Entity template="Alt. Spawn Point" id="0" pos="2.37499857 0 0.875" rot="0.342020601 0 0.939692557 0 1 0 -0.939692557 0 0.342020601"/>
         <Entity template="Alt. Spawn Point" id="0" pos="4.24999952 0 4.625" rot="-0.500000358 0 -0.866025209 0 1 0 0.866025209 0 -0.500000358"/>
-        <Entity template="Wall" id="0" pos="1.12499952 0 5.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="door_threshold_wood_01" id="0" pos="3.62501764 0 0.125019073" rot="-1 0 5.43892327e-07 0 1 0 -5.43892327e-07 0 -1" group="4"/>
+        <Entity template="door_frame_wood_01" id="0" pos="3.62501764 0 0.125019073" rot="-1 0 5.43892327e-07 0 1 0 -5.43892327e-07 0 -1" group="4"/>
+        <Entity template="door_wood_01" id="0" pos="3.62501764 0 0.125019073" rot="-1 0 5.43892327e-07 0 1 0 -5.43892327e-07 0 -1" group="4"/>
+        <Entity template="Wall" id="0" pos="0.125 0 3.625" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="6">
-                <Branch parent="0" p0="0 0" p1="4.50000048 0" p2="4.50000048 -5" p3="-0.999999523 -5" p4="-0.999999523 0" p5="0 0"/>
+                <Branch parent="0" p0="0 0" p1="0 -3.5" p2="5.5 -3.5" p3="5.5 1.5" p4="0 1.5" p5="0 0"/>
             </Wall>
         </Entity>
-        <Entity template="door_threshold_wood_01" id="0" pos="3.62501764 0 0.125019073" rot="-1 0 5.43892327e-07 0 1 0 -5.43892327e-07 0 -1" group="4"/>
-        <Entity template="door_wood_01" id="0" pos="3.62501764 0 0.125019073" rot="-1 0 5.43892327e-07 0 1 0 -5.43892327e-07 0 -1" group="4"/>
-        <Entity template="door_frame_wood_01" id="0" pos="3.62501764 0 0.125019073" rot="-1 0 5.43892327e-07 0 1 0 -5.43892327e-07 0 -1" group="4"/>
         <Entity template="window_glass" id="0" pos="4.24999952 0 0.125" rot="-1 0 0 0 1 0 0 0 -1" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="4.24999952 8.8817842e-16 0.125" rot="-1 0 0 0 1 0 0 0 -1" layerMask="1"/>
         <Entity template="window_glass" id="0" pos="2.99999952 0 0.125" rot="-1 0 0 0 1 0 0 0 -1" layerMask="1"/>
