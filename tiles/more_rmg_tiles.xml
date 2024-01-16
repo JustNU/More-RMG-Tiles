@@ -427,9 +427,9 @@
         <Entity template="door_frame_wood_01" id="0" pos="0.125045776 0 2.62499237" rot="3.20374966e-07 0 1 0 1 0 -1 0 3.20374966e-07" group="3"/>
         <Entity template="window_glass" id="0" pos="0.125 0 2.62501717" rot="0 0 -1 0 1 0 1 -0 0" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="0.125 0 2.62501717" rot="0 0 -1 0 1 0 1 -0 0" layerMask="1"/>
-        <Entity template="Wall" id="0" pos="4.62499809 0 3.62501717" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="Wall" id="0" pos="0.125 0 3.62501717" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="0 -3.5" p2="-4.49999809 -3.5" p3="-4.49999809 0" p4="0 0"/>
+                <Branch parent="0" p0="0 0" p1="4.49999809 0" p2="4.49999809 -3.5" p3="0 -3.5" p4="0 0"/>
             </Wall>
         </Entity>
     </Prefab>
@@ -3936,13 +3936,13 @@
         <Entity template="Alt. Spawn Point" id="0" pos="3.875 0 1.99999619" rot="-0.866025567 0 0.49999994 0 1 0 -0.49999994 0 -0.866025567"/>
         <Entity template="Alt. Spawn Point" id="0" pos="0.749998093 0 1.12499619" rot="0.573576391 0 0.819152117 0 1 0 -0.819152117 0 0.573576391"/>
     </Prefab>
-    <Prefab name="MRMGT_knives_in_the_dark_bedroom2_9x4" tags="bedroom,room" themes="residential,apartment" width="9.2500057" height="4.2500038" formatVersion="2" minAnchors="1" maxAnchors="3">
+    <Prefab name="MRMGT_knives_in_the_dark_bedroom2_9x4" tags="room,bedroom" themes="apartment,residential" width="9.2500057" height="4.2500038" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="36" height="16" LayerConstant="16711680">
             <Materials>
                 <Material>tiles</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125005722 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125005722 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="952449701">
             <PolyShape num="5" p0="0 0 0" p1="9 0 0" p2="9 0 4" p3="-9.53674316e-07 0 4" p4="0 0 0"/>
         </Entity>
         <Entity template="Grunt Insurgent" id="0" pos="7.37500477 0 2.125" rot="-1 0 -8.74227766e-08 0 1 0 8.74227766e-08 0 -1">
