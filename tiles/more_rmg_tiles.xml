@@ -4493,13 +4493,13 @@
         <Entity template="Alt. Spawn Point" id="0" pos="2.5 0 2.37504196" rot="1 0 -2.75671482e-07 0 1 0 2.75671482e-07 0 1"/>
         <Entity template="Alt. Spawn Point" id="0" pos="2.375 0 1.00004196" rot="-0.766044259 0 0.642787933 0 1 0 -0.642787933 0 -0.766044259"/>
     </Prefab>
-    <Prefab name="MRMGT_speed_is_life_storage1_6" tags="room,storage" themes="apartment,residential" width="6.250001" height="3.2500381" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_speed_is_life_storage1_6" tags="room,storage" themes="apartment,residential" width="6.250001" height="3.2500381" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="24" height="12" LayerConstant="65280">
             <Materials>
                 <Material>carpets_02</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125038147" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125038147" rot="1 0 0 0 1 0 0 0 1" tileNameHash="3403771078">
             <PolyShape num="5" p0="0 0 0" p1="6.00000191 0 0" p2="6.00000191 0 3.00000024" p3="0 0 3.00000024" p4="0 0 0"/>
         </Entity>
         <Entity template="Wall" id="0" pos="0.125 0 3.12503815" rot="1 0 0 0 1 0 0 0 1">
@@ -4554,13 +4554,13 @@
         <Entity template="Alt. Spawn Point" id="0" pos="2.6314106 0 1.82179642" rot="-0.965925872 0 0.258819193 0 1 0 -0.258819193 0 -0.965925872"/>
         <Entity template="Alt. Spawn Point" id="0" pos="1.13140869 0 0.946796417" rot="-0.173648 0 0.984807849 0 1 0 -0.984807849 0 -0.173648"/>
     </Prefab>
-    <Prefab name="MRMGT_speed_is_life_storage2_6x3" tags="room,storage" themes="apartment,residential" width="6.2500048" height="3.25" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_speed_is_life_storage2_6x3" tags="room,storage" themes="apartment,residential" width="6.2500048" height="3.25" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="24" height="12" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125003815 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125003815 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="3774883802">
             <PolyShape num="5" p0="0 0 0" p1="6.00000095 0 0" p2="6.00000095 0 3.00000024" p3="0 0 3.00000024" p4="0 0 0"/>
         </Entity>
         <Entity template="Executioner" id="0" pos="4.12500477 0 1.625" rot="0.0871558934 0 0.996194661 0 1 -0 -0.99619478 0 0.0871559009">
@@ -5114,7 +5114,7 @@
         <Entity template="window_frame" id="0" pos="1.625 8.8817842e-16 3.375" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="curtain_01_01" id="0" pos="1.625 8.3223398e-08 3.25" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_rat_work_storage_2.5x7" tags="room,storage" themes="apartment,residential" width="2.7500439" height="7.2500191" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_rat_work_hallway_2.5x7" tags="room,hallway" themes="apartment,residential" width="2.7500439" height="7.2500191" formatVersion="2" minAnchors="1">
         <Terrain width="10" height="28" LayerConstant="0">
             <Materials>
                 <Material>tiles_02</Material>
@@ -5124,7 +5124,7 @@
             <PolyShape num="5" p0="0 0 0" p1="2.49999952 0 0" p2="2.49999952 0 7.00000048" p3="0 0 7.00000048" p4="0 0 0"/>
         </Entity>
         <Entity template="Grunt Insurgent" id="0" pos="0.750043869 0 0.750019073" rot="0.99619472 0 0.0871558711 0 1 0 -0.0871558711 0 0.99619472">
-            <Targets num="1" id0="40"/>
+            <Targets num="1" id0="37"/>
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="2" chanceToInvestigate="0.0099999998" chanceToAmbush="1" chanceToBlindFire="0"/>
             </Human>
@@ -5136,24 +5136,9 @@
         <Entity template="door_wood_01" id="0" pos="0.124998093 0 5.12495804" rot="0 0 1.00000083 0 1 0 -1.00000083 0 0"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.125 0 5.12495804" rot="0 0 1.00000083 0 1 0 -1.00000083 0 0"/>
         <Entity template="Grunt Insurgent" id="0" pos="1.87504387 0 4.87501907" rot="0.173648223 0 -0.984808743 0 1 0 0.984808743 0 0.173648223">
-            <Targets num="2" id0="41" id1="42"/>
+            <Targets num="2" id0="38" id1="39"/>
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="2" chanceToInvestigate="0.0099999998" chanceToAmbush="1" chanceToBlindFire="0"/>
-            </Human>
-        </Entity>
-        <Entity template="Hostage" id="0" pos="1.87504387 0 1.75001907" rot="0.57357651 0 -0.819152117 0 1 0 0.819152117 0 0.57357651">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Hostage" id="0" pos="1.87504387 0 3.12501907" rot="-0.258819044 0 -0.965926111 0 1 0 0.965926111 0 -0.258819044">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Hostage" id="0" pos="1.75004387 0 4.25001907" rot="-0.573576629 0 -0.819152594 0 1 0 0.819152594 0 -0.573576629">
-            <Human needsRescue="false">
-                <Traits/>
             </Human>
         </Entity>
         <Entity template="crate_01" id="0" pos="0.750043869 0.159999996 2.62501907" rot="-0.86602509 -7.5710318e-08 -0.500000358 -4.37113563e-08 1 -7.5710318e-08 0.500000358 -4.37113563e-08 -0.86602509"/>
@@ -5182,7 +5167,7 @@
         <Entity template="window_glass" id="0" pos="2.62504387 0 6.12501907" rot="0 0 1.00000024 0 1 0 -1.00000024 0 0"/>
         <Entity template="window_frame" id="0" pos="2.62504387 0 6.12501907" rot="0 0 1.00000024 0 1 0 -1.00000024 0 0"/>
         <Entity template="Executioner" id="0" pos="0.625043869 0 4.12501907" rot="0.573576868 0 0.819152534 0 1 0 -0.819152534 0 0.573576868">
-            <Targets num="1" id0="39"/>
+            <Targets num="1" id0="36"/>
             <Human needsRescue="false">
                 <Traits/>
             </Human>
