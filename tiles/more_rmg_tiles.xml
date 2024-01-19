@@ -3769,13 +3769,13 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_knives_in_the_dark_living1_6.5x3.5" tags="room,living" themes="residential,apartment" width="6.7500076" height="3.7500458" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_knives_in_the_dark_living1_6.5x3.5" tags="room,living" themes="residential,apartment" width="6.7500057" height="3.7500458" formatVersion="2" minAnchors="1" maxAnchors="2">
         <Terrain width="26" height="14" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125007629 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="4046698778">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125007629 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="1171560565">
             <PolyShape num="5" p0="0 0 0" p1="6.50000048 0 0" p2="6.50000048 0 3.50000048" p3="-1.1920929e-07 0 3.50000048" p4="0 0 0"/>
         </Entity>
         <Entity template="door_threshold_wood_01" id="0" pos="0.125007629 0 2.625" rot="1.41561031e-07 0 1 0 1 -0 -1 0 1.41561031e-07"/>
@@ -3785,11 +3785,6 @@
             <Light color="FFFFFF" radiusMeters="3.7" limitType="None" colorMultiplier="1.7" isIndoorLight="false" startDisabled="false"/>
         </Entity>
         <Entity template="rug_large_01" id="0" pos="4.50000763 0.0399999991 1.87120056" rot="1.49011612e-07 0 1 0 1 -0 -1 0 1.49011612e-07"/>
-        <Entity template="Wall" id="0" pos="6.62500763 0 0.125" rot="1 0 0 0 1 0 0 0 1">
-            <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="0 3.50000048" p2="-6.50000048 3.50000048" p3="-6.50000048 2.38418579e-07" p4="0 0"/>
-            </Wall>
-        </Entity>
         <Entity template="Interact Sit" id="0" pos="5.50000763 0.0500000007 2.5" rot="-0.499999881 0 0.866025567 0 1 0 -0.866025448 0 -0.499999821"/>
         <Entity template="file_cabinet_03" id="0" pos="2.23117065 0.70952636 0.520717621" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="file_cabinet_03" id="0" pos="2.6819725 0.70952636 0.506847382" rot="1 0 0 0 1 0 0 0 1"/>
@@ -3803,7 +3798,7 @@
             <POI forEnemies="true"/>
         </Entity>
         <Entity template="Grunt Insurgent Weaponless" id="0" pos="5.37500763 0 2" rot="-0.984807849 0 -0.173648268 0 1 0 0.173648268 0 -0.984807849">
-            <Targets num="5" id0="7" id1="33" id2="34" id3="35" id4="36"/>
+            <Targets num="5" id0="6" id1="32" id2="33" id3="34" id4="35"/>
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -3830,6 +3825,18 @@
         <Entity template="Alt. Spawn Point" id="0" pos="4.12500763 0 0.874996185" rot="0.57357645 0 -0.819151998 0 1 0 0.819151998 0 0.57357645"/>
         <Entity template="Alt. Spawn Point" id="0" pos="4.00000763 0 1.87499619" rot="0.173648179 0 -0.984807789 0 1 0 0.984807789 0 0.173648179"/>
         <Entity template="Alt. Spawn Point" id="0" pos="1.62500763 0 2.62499619" rot="-0.939692676 0 0.342020065 0 1 0 -0.342020065 0 -0.939692676"/>
+        <Entity template="window_glass" id="0" pos="0.125007629 0 1.125" rot="1.49011612e-07 0 1 0 1 -0 -1 0 1.49011612e-07" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="0.125007629 0 1.125" rot="1.49011612e-07 0 1 0 1 -0 -1 0 1.49011612e-07" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="1.12500763 0 0.125" rot="1 0 -4.47034836e-08 0 1 0 4.47034836e-08 -0 1" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="1.12500763 0 0.125" rot="1 0 -4.47034836e-08 0 1 0 4.47034836e-08 -0 1" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="3.87500763 0 3.625" rot="1 0 -7.45057971e-09 0 1 0 7.45057971e-09 -0 1" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="3.87500763 0 3.625" rot="1 0 -7.45057971e-09 0 1 0 7.45057971e-09 -0 1" layerMask="1"/>
+        <Entity template="curtain_01_01" id="0" pos="3.87500763 8.94069672e-08 3.5" rot="-1 0 -1.1920929e-07 0 1 0 1.1920929e-07 0 -1" layerMask="1"/>
+        <Entity template="Wall" id="0" pos="6.62500572 0 3.62500381" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="5">
+                <Branch parent="0" p0="0 0" p1="0 -3.50000381" p2="-6.49999809 -3.50000381" p3="-6.49999809 0" p4="0 0"/>
+            </Wall>
+        </Entity>
     </Prefab>
     <Prefab name="MRMGT_knives_in_the_dark_bathroom_2x3.5" tags="bathroom,room" themes="residential,apartment" width="2.25" height="4" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="8" height="14" LayerConstant="16711680">
@@ -4117,13 +4124,13 @@
         <Entity template="Alt. Spawn Point" id="0" pos="3.99999976 0 2.24999619" rot="-0.422618181 0 0.906307817 0 1 0 -0.906307817 0 -0.422618181"/>
         <Entity template="Alt. Spawn Point" id="0" pos="3.00000048 0 1.62499619" rot="0.642787755 0 0.766044438 0 1 0 -0.766044438 0 0.642787755"/>
     </Prefab>
-    <Prefab name="MRMGT_knives_in_the_dark_living2_5.5x7" tags="room,living" themes="residential,apartment" width="5.75" height="7.25" formatVersion="2" minAnchors="1" maxAnchors="3">
+    <Prefab name="MRMGT_knives_in_the_dark_living2_5.5x7" tags="room,living" themes="residential,apartment" width="5.7500005" height="7.2500038" formatVersion="2" minAnchors="1" maxAnchors="3">
         <Terrain width="22" height="28" LayerConstant="255">
             <Materials>
                 <Material>tiles_02</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125000194 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125000194 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="1345644312">
             <PolyShape num="5" p0="0 0 0" p1="5.5 0 0" p2="5.5 0 7" p3="0 0 7" p4="0 0 0"/>
         </Entity>
         <Entity template="light_radial_warm" id="0" pos="2.87500024 2 1.875" rot="1 0 0 0 1 0 0 0 1"/>
@@ -4156,7 +4163,7 @@
         <Entity template="commode_01_02" id="0" pos="5.125 0.531444609 4.5" rot="-1 0 -1.78813934e-07 0 1 0 1.78813934e-07 0 -1"/>
         <Entity template="tv_flat" id="0" pos="5.25 1.0648855 4.5" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Grunt Insurgent" id="0" pos="2.5 0 5.5" rot="-0.642787516 0 0.766044676 0 1 0 -0.766044557 0 -0.642787457">
-            <Targets num="2" id0="45" id1="61"/>
+            <Targets num="2" id0="44" id1="60"/>
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -4164,15 +4171,10 @@
         <Entity template="rug_large_02" id="0" pos="2.87500024 0.0199999996 2.25" rot="1.34110451e-07 0 -1 0 1 0 1 -0 1.34110451e-07"/>
         <Entity template="rug_large_02" id="0" pos="2.87500024 0.00999999978 5.25" rot="1.41561031e-07 0 1 0 1 -0 -1 0 1.41561031e-07"/>
         <Entity template="Grunt Insurgent" id="0" pos="1.75000012 0 2" rot="-0.258818924 0 0.965925872 0 1 0 -0.965925872 0 -0.258818924">
-            <Targets num="1" id0="60"/>
+            <Targets num="1" id0="59"/>
             <Human needsRescue="false">
                 <Traits roamAround="true" roamRadius="2.5"/>
             </Human>
-        </Entity>
-        <Entity template="Wall" id="0" pos="0.125000194 0 7.125" rot="1 0 0 0 1 0 0 0 1">
-            <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="5.5 0" p2="5.5 -7" p3="0 -7" p4="0 0"/>
-            </Wall>
         </Entity>
         <Entity template="desktop_01" id="0" pos="1.00173593 0.880207479 0.515766144" rot="1 0 4.47034836e-08 0 1 -0 -4.47034836e-08 0 1"/>
         <Entity template="keyboard" id="0" pos="0.881735027 0.780775189 0.774101257" rot="1.49011598e-07 0 1 0 1 -0 -1 0 1.49011598e-07"/>
@@ -4191,13 +4193,13 @@
         <Entity template="Interact Sit" id="0" pos="2.25000024 0.0500000007 6" rot="-0.087155588 0 0.99619472 0 1 0 -0.99619472 0 -0.087155588"/>
         <Entity template="floor_lamp_03" id="0" pos="0.500000179 0.701152861 6.75" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Foreign Advisor" id="0" pos="1.87500024 0 4" rot="-0.173648179 0 0.984807789 0 1 0 -0.984807789 0 -0.173648179">
-            <Targets num="2" id0="41" id1="59"/>
+            <Targets num="2" id0="40" id1="58"/>
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
         <Entity template="Veteran Insurgent" id="0" pos="1.75000024 0 5.25" rot="0.258819193 0 0.965925872 0 1 0 -0.965925872 0 0.258819193">
-            <Targets num="2" id0="43" id1="62"/>
+            <Targets num="2" id0="42" id1="61"/>
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -4219,13 +4221,18 @@
         <Entity template="Alt. Spawn Point" id="0" pos="4.125 0 0.999996185" rot="0.819151938 0 -0.573576689 0 1 0 0.573576689 0 0.819151938"/>
         <Entity template="Alt. Spawn Point" id="0" pos="3.50000024 0 3.75000381" rot="0.258819193 0 0.965925872 0 1 0 -0.965925872 0 0.258819193"/>
         <Entity template="Hostage" id="0" pos="0.750000179 0 2.75" rot="0.642787695 0 -0.766044438 0 1 0 0.766044438 0 0.642787695">
-            <Targets num="2" id0="64" id1="65"/>
+            <Targets num="2" id0="63" id1="64"/>
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
         <Entity template="Alt. Spawn Point" id="0" pos="1.62500024 0 3.24999619" rot="0.258819193 0 -0.965925872 0 1 0 0.965925872 0 0.258819193"/>
         <Entity template="Alt. Spawn Point" id="0" pos="1.00000024 0 2.24999619" rot="-0.258818984 0 -0.965925932 0 1 0 0.965925932 0 -0.258818984"/>
+        <Entity template="Wall" id="0" pos="5.62500048 0 7.12500381" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="5">
+                <Branch parent="0" p0="0 0" p1="-5.50000048 0" p2="-5.50000048 -7.00000381" p3="0 -7.00000381" p4="0 0"/>
+            </Wall>
+        </Entity>
     </Prefab>
     <Prefab name="MRMGT_speed_is_life_kitchen_6x4" tags="room,kitchen" themes="apartment,residential" width="6.250001" height="4.25" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="24" height="16" LayerConstant="65280">
