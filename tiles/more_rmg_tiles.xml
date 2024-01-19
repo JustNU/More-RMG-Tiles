@@ -2568,7 +2568,7 @@
         <Entity template="window_frame" id="0" pos="1.12503242 0 5.62499905" rot="1 0 -9.68575478e-08 0 1 0 9.68575478e-08 0 1" group="5" layerMask="1"/>
         <Entity template="curtain_02_01" id="0" pos="1.12503052 0 5.49999523" rot="-1 0 9.68575478e-08 0 1 0 -9.68575478e-08 0 -1" group="5" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_why_we_fight_bedroom_4.5x3" tags="room,bedroom" themes="apartment,residential" width="4.7500334" height="3.2500339" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_why_we_fight_bedroom_4.5x3" tags="bedroom,room" themes="apartment,residential" width="4.7500334" height="3.2500339" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="18" height="12" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
@@ -2602,11 +2602,6 @@
         <Entity template="door_threshold_wood_01" id="0" pos="0.125 0 2.12499905" rot="0 0 1.00000048 0 1 0 -1.00000048 0 0" group="3"/>
         <Entity template="Alt. Spawn Point" id="0" pos="2.87503433 0 0.749999523" rot="0.642787695 0 -0.766044438 0 1 0 0.766044438 0 0.642787695"/>
         <Entity template="Alt. Spawn Point" id="0" pos="2.75003433 0 1.99999952" rot="0.984807789 0 -0.17364803 0 1 0 0.17364803 0 0.984807789"/>
-        <Entity template="Wall" id="0" pos="4.62503338 0 3.125" rot="1 0 0 0 1 0 0 0 1">
-            <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="0 -3" p2="-4.49999905 -3" p3="-4.49999905 0" p4="0 0"/>
-            </Wall>
-        </Entity>
         <Entity template="curtain_03_01" id="0" pos="0.250034332 9.7681621e-08 2.125" rot="0 0 1.00000012 0 1 0 -1.00000012 0 0" layerMask="1"/>
         <Entity template="window_glass" id="0" pos="0.125034332 0 2.125" rot="0 0 -1.00000012 0 1 0 1.00000012 0 0" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="0.125034332 0 2.125" rot="0 0 -1.00000012 0 1 0 1.00000012 0 0" layerMask="1"/>
@@ -2616,6 +2611,11 @@
         <Entity template="window_frame" id="0" pos="2.62503433 0 3.125" rot="1 0 -2.98023224e-08 0 1 0 2.98023224e-08 0 1" group="5" layerMask="1"/>
         <Entity template="window_glass" id="0" pos="3.12503433 0 0.125" rot="1 0 -2.98023224e-08 0 1 0 2.98023224e-08 0 1" group="6" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="3.12503433 0 0.125" rot="1 0 -2.98023224e-08 0 1 0 2.98023224e-08 0 1" group="6" layerMask="1"/>
+        <Entity template="Wall" id="0" pos="4.62503338 0 0.125" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="5">
+                <Branch parent="0" p0="0 0" p1="0 3" p2="-4.49999905 3" p3="-4.49999905 0" p4="0 0"/>
+            </Wall>
+        </Entity>
     </Prefab>
     <Prefab name="MRMGT_wood_doors_are_easy_bathroom1_3x3" tags="bathroom,room" themes="apartment,residential" width="3.2500334" height="3.249999" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="12" height="12" LayerConstant="16711680">
@@ -2724,7 +2724,7 @@
         <Entity template="window_frame" id="0" pos="1.63468933 0 0.125" rot="-1 0 -1.41561031e-07 0 1 0 1.41561031e-07 0 -1" group="3" layerMask="1"/>
         <Entity template="curtain_02_01" id="0" pos="1.63469124 0 0.250001907" rot="1 0 1.41561031e-07 0 1 0 -1.41561031e-07 0 1" group="3" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_wood_doors_are_easy_bedroom1_5x2.5" tags="room,bedroom" themes="apartment,residential" width="5.249999" height="2.75" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_wood_doors_are_easy_bedroom1_5x2.5" tags="bedroom,room" themes="apartment,residential" width="5.249999" height="2.75" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="20" height="10" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
@@ -2735,7 +2735,7 @@
         </Entity>
         <Entity template="bed_single_02" id="0" pos="4 0.46609062 0.75" rot="-1.00000012 0 -5.96046448e-08 0 1 0 5.96046448e-08 0 -1.00000012"/>
         <Entity template="table_wood_large_02_02" id="0" pos="1.125 0.45954594 1.875" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024"/>
-        <Entity template="chair_market_01" id="0" pos="4.37499905 0.26442644 2.125" rot="-0.766044676 0 -0.642787516 0 1 0 0.642787516 0 -0.766044676"/>
+        <Entity template="chair_market_01" id="0" pos="4.37499905 0.26442644 2.125" rot="-0.965925872 0 0.258819193 0 1 0 -0.258819193 0 -0.965925872"/>
         <Entity template="chair_market_01" id="0" pos="0.625 0.26442644 0.75" rot="0.766044497 0 -0.642787576 0 1 0 0.642787576 0 0.766044497"/>
         <Entity template="laptop_02" id="0" pos="1.125 0.920921862 1.5" rot="-0.996195078 0 -0.0871557593 0 1 0 0.0871557593 0 -0.996195078"/>
         <Entity template="laptop_03" id="0" pos="1.625 0.920921862 1.875" rot="5.21540642e-08 0 1.00000012 0 1 0 -1.00000012 0 5.21540642e-08"/>
@@ -2772,17 +2772,17 @@
         </Entity>
         <Entity template="Alt. Spawn Point" id="0" pos="2.625 0 1.75" rot="0.99619472 0 -0.0871562362 0 1 0 0.0871562362 0 0.99619472"/>
         <Entity template="Alt. Spawn Point" id="0" pos="4.49999905 0 1.5" rot="0.50000006 0 -0.866025448 0 1 0 0.866025448 0 0.50000006"/>
-        <Entity template="Wall" id="0" pos="0.125 0 2.625" rot="1 0 0 0 1 0 0 0 1">
-            <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="4.99999905 0" p2="4.99999905 -2.5" p3="0 -2.5" p4="0 0"/>
-            </Wall>
-        </Entity>
         <Entity template="window_glass" id="0" pos="2.625 0 2.625" rot="1 0 0 -0 1 0 0 -0 1" group="3" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="2.625 8.8817842e-16 2.625" rot="1 0 0 0 1 0 0 0 1" group="3" layerMask="1"/>
         <Entity template="curtain_02_01" id="0" pos="2.625 0 2.5" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024" group="3" layerMask="1"/>
         <Entity template="window_glass" id="0" pos="1.62499619 0 0.138401031" rot="-1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 -1" group="4" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="1.62499619 0 0.138401031" rot="-1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 -1" group="4" layerMask="1"/>
         <Entity template="curtain_02_01" id="0" pos="1.62499809 0 0.263406754" rot="1 0 -1.2665987e-07 0 1 0 1.2665987e-07 0 1" group="4" layerMask="1"/>
+        <Entity template="Wall" id="0" pos="5.12499905 0 0.125" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="5">
+                <Branch parent="0" p0="0 0" p1="0 2.5" p2="-4.99999905 2.5" p3="-4.99999905 0" p4="0 0"/>
+            </Wall>
+        </Entity>
     </Prefab>
     <Prefab name="MRMGT_wood_doors_are_easy_bedroom2_7x5.5" tags="bedroom,room" themes="apartment,residential" width="7.250001" height="4.7500038" formatVersion="2" minAnchors="1" maxAnchors="2">
         <Terrain width="28" height="18" LayerConstant="65280">
@@ -3049,7 +3049,7 @@
         <Entity template="window_frame" id="0" pos="7.12502861 0 6.12500095" rot="-1 0 -2.68220901e-07 0 1 0 2.68220901e-07 0 -1" group="5" layerMask="1"/>
         <Entity template="Floor" id="0" pos="1.12502861 0 1.74999952" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_wood_doors_are_easy_hallway_7x2" tags="room,hallway" themes="apartment,residential" width="7.2500005" height="2.2500014" formatVersion="2" minAnchors="2">
+    <Prefab name="MRMGT_wood_doors_are_easy_hallway_7x2" tags="hallway,room" themes="apartment,residential" width="7.2500005" height="2.2500014" formatVersion="2" minAnchors="2">
         <Terrain width="28" height="8" LayerConstant="255">
             <Materials>
                 <Material>floor_wood</Material>
@@ -3094,15 +3094,15 @@
         <Entity template="door_threshold_wood_01" id="0" pos="0.125 0 1.12499952" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="3"/>
         <Entity template="door_wood_01" id="0" pos="0.125 0 1.12499952" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="3"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.125 0 1.12499952" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="3"/>
-        <Entity template="Wall" id="0" pos="0.125 0 2.12499952" rot="1 0 0 0 1 0 0 0 1">
-            <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="7.00000048 0" p2="7.00000048 -1.99999952" p3="0 -1.99999952" p4="0 0"/>
-            </Wall>
-        </Entity>
         <Entity template="window_glass" id="0" pos="7.12500048 0 1.12499952" rot="1.49011612e-07 0 -1 0 1 0 1 0 1.49011612e-07" group="4" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="7.12500048 0 1.12499952" rot="1.49011612e-07 0 -1 0 1 0 1 0 1.49011612e-07" group="4" layerMask="1"/>
         <Entity template="window_glass" id="0" pos="0.125 0 1.12499952" rot="1.49011612e-07 0 -1 0 1 0 1 0 1.49011612e-07" group="5" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="0.125 0 1.12499952" rot="1.49011612e-07 0 -1 0 1 0 1 0 1.49011612e-07" group="5" layerMask="1"/>
+        <Entity template="Wall" id="0" pos="7.12500048 0 2.12499952" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="5">
+                <Branch parent="0" p0="0 0" p1="-7.00000048 0" p2="-7.00000048 -1.99999952" p3="0 -1.99999952" p4="0 0"/>
+            </Wall>
+        </Entity>
     </Prefab>
     <Prefab name="MRMGT_wood_doors_are_easy_kitchen_3.5x4" tags="room,kitchen" themes="apartment,residential" width="3.7499995" height="4.249999" formatVersion="2" minAnchors="1">
         <Terrain width="14" height="16" LayerConstant="16711680">
