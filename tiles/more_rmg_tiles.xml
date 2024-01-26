@@ -425,8 +425,6 @@
         <Entity template="door_threshold_wood_01" id="0" pos="0.125045776 0 2.62499237" rot="3.20374966e-07 0 1 0 1 0 -1 0 3.20374966e-07" group="3"/>
         <Entity template="door_wood_01" id="0" pos="0.125045776 0 2.62499237" rot="3.20374966e-07 0 1 0 1 0 -1 0 3.20374966e-07" group="3"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.125045776 0 2.62499237" rot="3.20374966e-07 0 1 0 1 0 -1 0 3.20374966e-07" group="3"/>
-        <Entity template="window_glass" id="0" pos="0.125 0 2.62501717" rot="0 0 -1 0 1 0 1 -0 0" layerMask="1"/>
-        <Entity template="window_frame" id="0" pos="0.125 0 2.62501717" rot="0 0 -1 0 1 0 1 -0 0" layerMask="1"/>
         <Entity template="Wall" id="0" pos="0.125 0 3.62501717" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
                 <Branch parent="0" p0="0 0" p1="4.49999809 0" p2="4.49999809 -3.5" p3="0 -3.5" p4="0 0"/>
