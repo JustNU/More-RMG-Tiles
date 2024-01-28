@@ -6095,25 +6095,20 @@
         <Entity template="window_glass" id="0" pos="0.125000954 0 3.625" rot="0 0 0.99999994 0 1 0 -0.99999994 0 0" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="0.125000954 0 3.625" rot="0 0 0.99999994 0 1 0 -0.99999994 0 0" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_hallway_7.5x3" tags="hallway,room" themes="apartment,residential" width="7.750001" height="3.2500381" formatVersion="2" minAnchors="1" maxAnchors="3">
+    <Prefab name="MRMGT_a_pair_of_eights_east_hallway_7.5x3" tags="hallway,room" themes="residential,apartment" width="7.750001" height="3.2500381" formatVersion="2" minAnchors="1" maxAnchors="3">
         <Terrain width="30" height="12" LayerConstant="0">
             <Materials>
                 <Material>fancy</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="4153277405">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="3362029249">
             <PolyShape num="5" p0="0 0 0" p1="7.50000095 0 0" p2="7.49999809 0 3.00000024" p3="0 0 3.00000024" p4="0 0 0"/>
         </Entity>
         <Entity template="Grunt Insurgent" id="0" pos="3.87499619 0 1.125" rot="0.0871555656 0 -0.99619627 0 1 0 0.99619627 0 0.0871555656">
-            <Targets num="1" id0="18"/>
+            <Targets num="1" id0="17"/>
             <Human needsRescue="false">
                 <Traits chanceToInvestigate="0.11" chanceToAmbush="0.1"/>
             </Human>
-        </Entity>
-        <Entity template="Wall" id="0" pos="0.125 0 3.125" rot="1 0 0 0 1 0 0 0 1">
-            <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="7.49999809 0" p2="7.50000095 -3.00000024" p3="0 -3.00000024" p4="0 0"/>
-            </Wall>
         </Entity>
         <Entity template="sofa_02" id="0" pos="2.37844086 0.35134995 2.50320435" rot="-3.65078449e-07 0 1 0 1 0 -1 0 -3.65078449e-07"/>
         <Entity template="table_wood_large_02" id="0" pos="5.87499619 0.45954594 1.125" rot="1 0 7.45057971e-09 0 1 -0 -7.45057971e-09 0 1"/>
@@ -6138,7 +6133,7 @@
         <Entity template="curtain_04_01" id="0" pos="7.5 0 1.625" rot="1.1920929e-07 0 -1 0 1 0 1 -0 1.1920929e-07"/>
         <Entity template="Alt. Spawn Point" id="0" pos="2.12499428 0 1.125" rot="0.258819342 0 0.965925813 0 1 0 -0.965925813 0 0.258819342"/>
         <Entity template="Grunt Insurgent" id="0" pos="3.75 0 2.375" rot="-3.05473321e-07 0 -1 0 1 0 1 0 -3.05473321e-07">
-            <Targets num="1" id0="20"/>
+            <Targets num="1" id0="19"/>
             <Human needsRescue="false">
                 <Traits chanceToInvestigate="0.11" chanceToAmbush="0.1"/>
             </Human>
@@ -6152,15 +6147,20 @@
         <Entity template="door_wood_01" id="0" pos="0.125003815 0 1.62506104" rot="-8.19563866e-08 0 -1 0 1 0 1 0 -8.19563866e-08" group="3"/>
         <Entity template="door_wood_01" id="0" pos="4.62503815 0 3.12503815" rot="1 0 2.38418579e-07 0 1 0 -2.38418579e-07 0 1" group="4"/>
         <Entity template="door_frame_wood_01" id="0" pos="4.62503815 0 3.12503815" rot="1 0 2.38418579e-07 0 1 0 -2.38418579e-07 0 1" group="4"/>
-        <Entity template="barricade_sack_04" id="0" pos="3 0.362930387 1" rot="-9.68575478e-08 0 -1 0 1 0 1 0 -9.68575478e-08"/>
+        <Entity template="barricade_sack_04" id="0" pos="3 0.362930387 1.125" rot="-9.68575478e-08 0 -1 0 1 0 1 0 -9.68575478e-08"/>
+        <Entity template="Wall" id="0" pos="7.62500095 0 0.125" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="5">
+                <Branch parent="0" p0="0 0" p1="0 3" p2="-7.50000095 3" p3="-7.50000095 0" p4="0 0"/>
+            </Wall>
+        </Entity>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_living_6x7" tags="room,living" themes="apartment,residential" width="6.2500048" height="7.2500343" formatVersion="2" minAnchors="1">
+    <Prefab name="MRMGT_a_pair_of_eights_east_living_6x7" tags="room,living" themes="residential,apartment" width="6.2500057" height="7.2500343" formatVersion="2" minAnchors="1">
         <Terrain width="24" height="28" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.12500596 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Tile Shape" id="0" pos="0.12500596 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="179361408">
             <PolyShape num="5" p0="0 0 0" p1="5.99999857 0 0" p2="5.99999857 0 7.00000048" p3="0 0 7.00000048" p4="0 0 0"/>
         </Entity>
         <Entity template="barricade_sack_04" id="0" pos="3.88248587 0.362930417 2.55602264" rot="0.258819193 0 -0.965925872 0 1 0 0.965925872 0 0.258819193"/>
@@ -6170,11 +6170,6 @@
             </Human>
         </Entity>
         <Entity template="tube_tv_02" id="0" pos="0.625005007 1.31658328 3.625" rot="0.996194839 0 0.0871557519 0 1 0 -0.0871557519 0 0.996194839"/>
-        <Entity template="Wall" id="0" pos="0.12500596 0 7.125" rot="1 0 0 0 1 0 0 0 1">
-            <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="5.99999857 0" p2="5.99999857 -7.00000048" p3="0 -7.00000048" p4="0 0"/>
-            </Wall>
-        </Entity>
         <Entity template="commode_02" id="0" pos="0.625005007 0.476218641 3.625" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="nightstand_02" id="0" pos="5.62500477 0.440163821 4.75" rot="-0.99619478 0 -0.087155506 0 1 0 0.087155506 0 -0.99619478"/>
         <Entity template="table_wood_large_03" id="0" pos="4.91372776 0.469470978 5.71920013" rot="-0.422618181 0 0.906307876 0 1 0 -0.906307876 0 -0.422618181"/>
@@ -6218,12 +6213,17 @@
         <Entity template="door_frame_wood_01" id="0" pos="0.125 0 1.62505341" rot="-3.7252903e-08 0 -1 0 1 0 1 0 -3.7252903e-08" group="3"/>
         <Entity template="door_wood_01" id="0" pos="0.125 0 1.62505341" rot="-3.7252903e-08 0 -1 0 1 0 1 0 -3.7252903e-08" group="3"/>
         <Entity template="Grunt Insurgent" id="0" pos="0.750004768 0 4.75" rot="0.819151819 0 -0.573576808 0 1 0 0.573576808 0 0.819151819">
-            <Targets num="1" id0="39"/>
+            <Targets num="1" id0="38"/>
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="6" chanceToInvestigate="0.059999999" chanceToAmbush="0.16"/>
             </Human>
         </Entity>
         <Entity template="Alt. Spawn Point" id="0" pos="0.625004649 0 2.375" rot="-0.819152176 0 -0.573576212 0 1 0 0.573576212 0 -0.819152176"/>
+        <Entity template="Wall" id="0" pos="6.12500572 0 0.125" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="5">
+                <Branch parent="0" p0="0 0" p1="0 6.99999619" p2="-6 6.99999619" p3="-6 0" p4="0 0"/>
+            </Wall>
+        </Entity>
     </Prefab>
     <Prefab name="MRMGT_a_pair_of_eights_east_kitchen_5.5x3" tags="room,kitchen" themes="apartment,residential" width="5.7500038" height="3.2500305" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="22" height="12" LayerConstant="0">
