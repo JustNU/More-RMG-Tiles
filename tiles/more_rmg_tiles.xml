@@ -5915,31 +5915,31 @@
         <Entity template="door_wood_01" id="0" pos="1.62496471 0 2.62503815" rot="-1 0 -6.70552254e-08 0 1 0 6.70552254e-08 0 -1" group="1"/>
         <Entity template="door_frame_wood_01" id="0" pos="1.62496471 0 2.62503815" rot="-1 0 -6.70552254e-08 0 1 0 6.70552254e-08 0 -1" group="1"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_entrance_2.5x9" tags="entrance,hallway" themes="apartment,residential" width="2.7500038" height="9.25" formatVersion="2" minAnchors="2">
-        <Terrain width="10" height="36" LayerConstant="0">
+    <Prefab name="MRMGT_a_pair_of_eights_east_entrance_3x9" tags="entrance,hallway" themes="residential,apartment" width="3.2500038" height="9.25" formatVersion="2" minAnchors="2">
+        <Terrain width="12" height="36" LayerConstant="0">
             <Materials>
                 <Material>fancy</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1">
-            <PolyShape num="5" p0="0 0 0" p1="2.50000095 0 0" p2="2.50000095 0 9" p3="0 0 9" p4="0 0 0"/>
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="3169488477">
+            <PolyShape num="5" p0="0 0 0" p1="3.00000095 0 0" p2="3.00000095 0 9" p3="0 0 9" p4="0 0 0"/>
         </Entity>
         <Entity template="door_wood_01" id="0" pos="1.62509155 0 9.125" rot="1 0 -3.7252903e-08 0 1 0 3.7252903e-08 0 1"/>
         <Entity template="door_frame_wood_01" id="0" pos="1.62509155 0 9.125" rot="1 0 -3.7252903e-08 0 1 0 3.7252903e-08 0 1"/>
         <Entity template="door_wood_01" id="0" pos="0.125 0 6.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.125 0 6.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
-        <Entity template="door_wood_01" id="0" pos="2.625 0 6.125" rot="0 0 1 0 1 0 -1 0 0"/>
-        <Entity template="door_frame_wood_01" id="0" pos="2.625 0 6.125" rot="0 0 1 0 1 0 -1 0 0"/>
+        <Entity template="door_wood_01" id="0" pos="3.125 0 6.125" rot="0 0 1 0 1 0 -1 0 0"/>
+        <Entity template="door_frame_wood_01" id="0" pos="3.125 0 6.125" rot="0 0 1 0 1 0 -1 0 0"/>
         <Entity template="door_wood_01" id="0" pos="0.125 0 3.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.125 0 3.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
-        <Entity template="Wall" id="0" pos="2.62500381 0 0.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="Wall" id="0" pos="3.12500381 0 0.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="0 9" p2="-2.50000095 9" p3="-2.50000095 0" p4="0 0"/>
+                <Branch parent="0" p0="0 0" p1="0 9" p2="-3.00000095 9" p3="-3.00000095 0" p4="0 0"/>
             </Wall>
         </Entity>
-        <Entity template="pottery_04" id="0" pos="2.32552338 0.16916807 8.75775909" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="pottery_04" id="0" pos="2.82552338 0.16916807 8.75775909" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="pottery_01" id="0" pos="0.433460236 0.14549771 8.78090668" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="shelf_unit_01" id="0" pos="2.30897522 1.58000004 3.76815796" rot="-1 -1.81992584e-06 0 -1.81992584e-06 1 -1.81992584e-06 3.31213008e-12 -1.81992584e-06 -1"/>
+        <Entity template="shelf_unit_01" id="0" pos="2.80897522 1.58000004 3.76815796" rot="-1 -1.81992584e-06 0 -1.81992584e-06 1 -1.81992584e-06 3.31213008e-12 -1.81992584e-06 -1"/>
         <Entity template="Light Point" id="0" pos="1.375 2.0999999 7.625" rot="1 0 0 0 1 0 0 0 1">
             <Light color="FFFFFF" radiusMeters="5.5999999" limitType="Shadow" colorMultiplier="0.88999999" isIndoorLight="false" startDisabled="false"/>
         </Entity>
@@ -5948,28 +5948,28 @@
         </Entity>
         <Entity template="pictures_03" id="0" pos="0.25 1.39999998 0.75" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="pictures_03_02" id="0" pos="0.25 1.39999998 2.125" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="pictures_01_02" id="0" pos="2.50000381 1.39999998 2.5" rot="-1 0 0 0 1 0 0 0 -1"/>
-        <Entity template="pictures_04_02" id="0" pos="2.50000381 1.39999998 5.125" rot="-1 0 0 0 1 0 0 0 -1"/>
+        <Entity template="pictures_01_02" id="0" pos="3.00000381 1.39999998 2.5" rot="-1 0 0 0 1 0 0 0 -1"/>
+        <Entity template="pictures_04_02" id="0" pos="3.00000381 1.39999998 5.125" rot="-1 0 0 0 1 0 0 0 -1"/>
         <Entity template="painting_01_02" id="0" pos="0.25 1.39999998 5.125" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="chair_lux_01" id="0" pos="2.12500381 0.501740336 7.25" scale="0.799999952" rot="-0.984807789 0 0.173648328 0 1 0 -0.173648328 0 -0.984807789"/>
-        <Entity template="chair_lux_01" id="0" pos="2.12500381 0.501740336 8" scale="0.799999952" rot="-0.984807789 0 -0.17364803 0 1 0 0.17364803 0 -0.984807789"/>
-        <Entity template="room_tone_empty_spaces" id="0" pos="2.20741653 1.60000002 2.83135223" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="chair_lux_01" id="0" pos="2.62500381 0.501740336 7.25" scale="0.799999952" rot="-0.984807789 0 0.173648328 0 1 0 -0.173648328 0 -0.984807789"/>
+        <Entity template="chair_lux_01" id="0" pos="2.62500381 0.501740336 8" scale="0.799999952" rot="-0.984807789 0 -0.17364803 0 1 0 0.17364803 0 -0.984807789"/>
+        <Entity template="room_tone_empty_spaces" id="0" pos="2.70741653 1.60000002 2.83135223" rot="1 0 0 0 1 0 0 0 1">
             <SoundEmitter minAttenuationDistance="2.8" maxAttenuationDistance="9.6000004"/>
         </Entity>
-        <Entity template="Machinegunner OldSchool" id="0" pos="1.12500381 0 6" rot="-0.99619472 0 0.0871558413 0 1 0 -0.0871558413 0 -0.99619472">
+        <Entity template="Machinegunner OldSchool" id="0" pos="1.25000381 0 6" rot="-0.99619472 0 0.0871558413 0 1 0 -0.0871558413 0 -0.99619472">
             <Targets num="1" id0="29"/>
             <Human needsRescue="false">
                 <Traits chanceToAmbush="0"/>
             </Human>
         </Entity>
-        <Entity template="barricade_sack_04" id="0" pos="1.37500381 0.362930387 5.125" rot="1 0 1.04308128e-07 0 1 -0 -1.04308128e-07 0 1"/>
-        <Entity template="door_wood_01" id="0" pos="2.62499809 0 1.62505341" rot="-1.1920929e-07 0 -1 0 1 0 1 0 -1.1920929e-07" group="1"/>
-        <Entity template="door_frame_wood_01" id="0" pos="2.62499809 0 1.62505341" rot="-1.1920929e-07 0 -1 0 1 0 1 0 -1.1920929e-07" group="1"/>
+        <Entity template="barricade_sack_04" id="0" pos="1.50000381 0.362930387 5.125" rot="1 0 1.04308128e-07 0 1 -0 -1.04308128e-07 0 1"/>
+        <Entity template="door_wood_01" id="0" pos="3.12499809 0 1.62505341" rot="-1.1920929e-07 0 -1 0 1 0 1 0 -1.1920929e-07" group="1"/>
+        <Entity template="door_frame_wood_01" id="0" pos="3.12499809 0 1.62505341" rot="-1.1920929e-07 0 -1 0 1 0 1 0 -1.1920929e-07" group="1"/>
         <Entity template="door_wood_01" id="0" pos="1.12503052 0 0.125022888" rot="1 0 -5.96046448e-08 0 1 0 5.96046448e-08 0 1" group="2"/>
         <Entity template="door_frame_wood_01" id="0" pos="1.12503052 0 0.125022888" rot="1 0 -5.96046448e-08 0 1 0 5.96046448e-08 0 1" group="2"/>
-        <Entity template="Alt. Spawn Point" id="0" pos="1.25000763 0 4.5" rot="1 0 -6.70552254e-08 0 1 0 6.70552254e-08 0 1"/>
+        <Entity template="Alt. Spawn Point" id="0" pos="1.37500763 0 4.5" rot="1 0 -6.70552254e-08 0 1 0 6.70552254e-08 0 1"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_bedroom1_6x4" tags="room,bedroom" themes="apartment,residential" width="6.25" height="4.2500305" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_a_pair_of_eights_east_bedroom1_6x4" tags="bedroom,room" themes="residential,apartment" width="6.25" height="4.2500305" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="24" height="16" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
@@ -6025,60 +6025,60 @@
         <Entity template="window_frame_double" id="0" pos="2.375 8.8817842e-16 4.125" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="curtain_04_01" id="0" pos="2.375 0 4" rot="-1 0 -1.1920929e-07 0 1 0 1.1920929e-07 0 -1" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_bedroom2_4.5x5.5" tags="room,bedroom" themes="apartment,residential" width="4.750001" height="5.75" formatVersion="2" minAnchors="1" maxAnchors="1">
-        <Terrain width="18" height="22" LayerConstant="65280">
+    <Prefab name="MRMGT_a_pair_of_eights_east_bedroom2_5x5" tags="bedroom,room" themes="residential,apartment" width="5.25" height="5.2500458" formatVersion="2" minAnchors="1" maxAnchors="1">
+        <Terrain width="20" height="20" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125000954 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="2860118133">
-            <PolyShape num="5" p0="0 0 0" p1="4.5 0 0" p2="4.5 0 5.50000048" p3="0 0 5.50000048" p4="0 0 0"/>
+        <Entity template="RMG Tile Shape" id="0" pos="0.125000954 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="2472616181">
+            <PolyShape num="5" p0="0 0 0" p1="4.99999905 0 0" p2="4.99999905 0 5.00000429" p3="0 0 5.00000429" p4="0 0 0"/>
         </Entity>
-        <Entity template="door_wood_01" id="0" pos="4.625 0 4.125" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
-        <Entity template="door_frame_wood_01" id="0" pos="4.625 0 4.125" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
-        <Entity template="Wall" id="0" pos="4.625 0 0.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="door_wood_01" id="0" pos="5.125 0 4.125" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
+        <Entity template="door_frame_wood_01" id="0" pos="5.125 0 4.125" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
+        <Entity template="Wall" id="0" pos="5.12499905 0 0.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="7">
-                <Branch parent="0" p0="0 0" p1="9.53674316e-07 2.875" p2="0 5.50000048" p3="-4.5 5.50000048" p4="-4.5 0" p5="0 0"/>
-                <Branch parent="1" p6="-1.62499905 2.875"/>
+                <Branch parent="0" p0="0 0" p1="9.53674316e-07 2.875" p2="0 5.00000429" p3="-4.99999905 5.00000429" p4="-4.99999905 0" p5="0 0"/>
+                <Branch parent="1" p6="-1.62499809 2.875"/>
             </Wall>
         </Entity>
-        <Entity template="sofa_03" id="0" pos="2.4165926 0.441457391 4.97424316" rot="2.16066837e-07 0 1.00000036 0 1 0 -1.00000036 0 2.16066837e-07"/>
-        <Entity template="table_wood_small_02_02" id="0" pos="0.810160637 0.372283846 4.97511292" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="sofa_03" id="0" pos="2.4165926 0.441457391 4.47424316" rot="2.16066837e-07 0 1.00000036 0 1 0 -1.00000036 0 2.16066837e-07"/>
+        <Entity template="table_wood_small_02_02" id="0" pos="0.810160637 0.372283846 4.47511292" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="chair_03_02" id="0" pos="0.83371067 0.646136463 1.62224579" rot="1 0 -3.7252903e-08 0 1 0 3.7252903e-08 -0 1"/>
-        <Entity template="pottery_04_02" id="0" pos="0.800173759 0.902589917 4.95776367" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="book_01_02" id="0" pos="1.00350857 0.753253222 4.78443146" rot="0 -0.906308115 0.422618836 -0.99999994 0 0 0 -0.422618747 -0.906308234"/>
-        <Entity template="book_01_03" id="0" pos="1.07643032 0.753253222 5.08578491" rot="0 -0.707106888 0.707106829 0.99999994 0 0 0 0.707106769 0.707106948"/>
-        <Entity template="kitchen_mug_01" id="0" pos="0.673136711 0.836664438 4.70718384" rot="-1.00000072 0 -3.94880772e-07 0 1 0 3.94880772e-07 0 -1.00000072"/>
-        <Entity template="kitchen_counter_02" id="0" pos="3.68719006 0.44651413 1.59458923" rot="-1.00000083 0 3.94880772e-07 0 1 0 -3.94880772e-07 0 -1.00000083"/>
-        <Entity template="Grunt Insurgent" id="0" pos="2.87500095 0 4" rot="-0.965925932 0 -0.258818656 0 1 0 0.258818656 0 -0.965925932">
+        <Entity template="pottery_04_02" id="0" pos="0.800173759 0.902589917 4.45776367" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="book_01_02" id="0" pos="1.00350857 0.753253222 4.28443146" rot="0 -0.906308115 0.422618836 -0.99999994 0 0 0 -0.422618747 -0.906308234"/>
+        <Entity template="book_01_03" id="0" pos="1.07643032 0.753253222 4.58578491" rot="0 -0.707106888 0.707106829 0.99999994 0 0 0 0.707106769 0.707106948"/>
+        <Entity template="kitchen_mug_01" id="0" pos="0.673136711 0.836664438 4.20718384" rot="-1.00000072 0 -3.94880772e-07 0 1 0 3.94880772e-07 0 -1.00000072"/>
+        <Entity template="kitchen_counter_02" id="0" pos="4.18719006 0.44651413 1.59458923" rot="-1.00000083 0 3.94880772e-07 0 1 0 -3.94880772e-07 0 -1.00000083"/>
+        <Entity template="Grunt Insurgent" id="0" pos="1.87500095 0 3.5" rot="-0.965925932 0 -0.258818656 0 1 0 0.258818656 0 -0.965925932">
             <Targets num="1" id0="24"/>
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="5" chanceToInvestigate="0.89999998" chanceToAmbush="0.079999998"/>
             </Human>
         </Entity>
-        <Entity template="Grunt Insurgent" id="0" pos="0.750000954 0 3.625" rot="0.0871552452 0 -0.99619478 0 1 0 0.99619478 -0 0.0871552452">
+        <Entity template="Grunt Insurgent" id="0" pos="1.12500095 0 3.125" rot="0.0871552452 0 -0.99619478 0 1 0 0.99619478 -0 0.0871552452">
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="7" chanceToInvestigate="0.039999999" chanceToAmbush="0" chanceToBlindFire="0.18000001"/>
             </Human>
         </Entity>
-        <Entity template="chair_02" id="0" pos="3.10828686 0.650472105 0.831451416" rot="-0.707107186 0 -0.707107425 0 1 0 0.707107425 0 -0.707107186"/>
+        <Entity template="chair_02" id="0" pos="3.60828686 0.650472105 0.831451416" rot="-0.707107186 0 -0.707107425 0 1 0 0.707107425 0 -0.707107186"/>
         <Entity template="fan_02" id="0" pos="0.793341637 0.650624871 0.709396362" rot="0.866025627 0 -0.5 0 1 0 0.5 0 0.866025627"/>
-        <Entity template="pottery_02_02" id="0" pos="4.26354599 1.08990383 2.62219238" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="pottery_01_02" id="0" pos="4.24880981 1.03907585 0.525482178" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="toolbox_01" id="0" pos="3.99847031 1.00172496 1.00245667" rot="-0.81915307 0 -0.573576629 0 1 0 0.573576629 0 -0.81915307"/>
-        <Entity template="toolbox_02" id="0" pos="3.70051479 1.03780222 2.4673996" rot="0.342020482 0 -0.939693034 0 1 0 0.939693034 0 0.342020482"/>
-        <Entity template="monitor_new" id="0" pos="4.375 1.24489725 1.5" rot="1.41561031e-07 0 -1 0 1 0 1 -0 1.41561031e-07"/>
-        <Entity template="keyboard" id="0" pos="4.125 0.913587689 1.625" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="mouse" id="0" pos="3.37500095 0.0373429209 2" rot="0.965925872 0 -0.258819044 -0.0669871569 -0.965925932 -0.249999493 -0.25000003 0.258818537 -0.933012903"/>
-        <Entity template="Effect Zone" id="0" pos="0.250000954 0 5.5" rot="1 0 0 0 1 0 0 0 1">
-            <PolyShape num="5" p0="0 0 0" p1="4.25 0 -3.81469727e-06" p2="4.25 0 -5.25000048" p3="4.76837158e-07 0 -5.25000048" p4="0 0 0"/>
+        <Entity template="pottery_02_02" id="0" pos="4.76354599 1.08990383 2.62219238" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="pottery_01_02" id="0" pos="4.74880981 1.03907585 0.525482178" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="toolbox_01" id="0" pos="4.49847031 1.00172496 1.00245667" rot="-0.81915307 0 -0.573576629 0 1 0 0.573576629 0 -0.81915307"/>
+        <Entity template="toolbox_02" id="0" pos="4.20051479 1.03780222 2.4673996" rot="0.342020482 0 -0.939693034 0 1 0 0.939693034 0 0.342020482"/>
+        <Entity template="monitor_new" id="0" pos="4.875 1.24489725 1.5" rot="1.41561031e-07 0 -1 0 1 0 1 -0 1.41561031e-07"/>
+        <Entity template="keyboard" id="0" pos="4.625 0.913587689 1.625" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="mouse" id="0" pos="3.87500095 0.0373429209 2" rot="0.965925872 0 -0.258819044 -0.0669871569 -0.965925932 -0.249999493 -0.25000003 0.258818537 -0.933012903"/>
+        <Entity template="Effect Zone" id="0" pos="0.250000954 0 5" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="5" p0="0 0 0" p1="4.75 0 -3.81469727e-06" p2="4.75 0 -4.75000429" p3="4.76837158e-07 0 -4.75000429" p4="0 0 0"/>
             <SoundShader effectID="EFX_REVERB_INDOOR" defaultIndoors="false" defaultOutdoors="false"/>
         </Entity>
-        <Entity template="Interact Sit" id="0" pos="2.87500095 0.0500000007 4.5" rot="1.04308128e-07 0 1 0 1 -0 -1 0 1.04308128e-07"/>
+        <Entity template="Interact Sit" id="0" pos="1.87500095 0.0500000007 4" rot="1.04308128e-07 0 1 0 1 -0 -1 0 1.04308128e-07"/>
         <Entity template="Light Point" id="0" pos="2.5 2.0999999 2.625" rot="1 0 0 0 1 0 0 0 1">
             <Light color="FFFFFF" radiusMeters="5.5999999" limitType="Shadow" colorMultiplier="0.81" isIndoorLight="false" startDisabled="false"/>
         </Entity>
-        <Entity template="Grunt Insurgent" id="0" pos="3.00000095 0 1.625" rot="0.642787933 0 0.766044259 0 1 0 -0.766044259 0 0.642787933">
+        <Entity template="Grunt Insurgent" id="0" pos="3.50000095 0 1.625" rot="0.642787933 0 0.766044259 0 1 0 -0.766044259 0 0.642787933">
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="7" chanceToInvestigate="0.039999999" chanceToAmbush="0" chanceToBlindFire="0.18000001"/>
             </Human>
@@ -6090,19 +6090,21 @@
         </Entity>
         <Entity template="door_wood_01" id="0" pos="2.12504673 0 0.125022888" rot="1 0 -1.34110451e-07 0 1 0 1.34110451e-07 0 1" group="1"/>
         <Entity template="door_frame_wood_01" id="0" pos="2.12504673 0 0.125022888" rot="1 0 -1.34110451e-07 0 1 0 1.34110451e-07 0 1" group="1"/>
-        <Entity template="door_wood_01" id="0" pos="0.125 0 3.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0" group="2"/>
-        <Entity template="door_frame_wood_01" id="0" pos="0.125 0 3.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0" group="2"/>
-        <Entity template="window_glass" id="0" pos="0.125000954 0 3.625" rot="0 0 0.99999994 0 1 0 -0.99999994 0 0" layerMask="1"/>
-        <Entity template="window_frame" id="0" pos="0.125000954 0 3.625" rot="0 0 0.99999994 0 1 0 -0.99999994 0 0" layerMask="1"/>
+        <Entity template="door_wood_01" id="0" pos="0.125 0 3.125" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0" group="2"/>
+        <Entity template="door_frame_wood_01" id="0" pos="0.125 0 3.125" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0" group="2"/>
+        <Entity template="window_glass" id="0" pos="0.125000954 0 3.125" rot="0 0 0.99999994 0 1 0 -0.99999994 0 0" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="0.125000954 0 3.125" rot="0 0 0.99999994 0 1 0 -0.99999994 0 0" layerMask="1"/>
+        <Entity template="door_wood_01" id="0" pos="4.12495804 0 5.12504578" rot="-1 0 5.21540571e-08 0 1 0 -5.21540571e-08 0 -1" group="3"/>
+        <Entity template="door_frame_wood_01" id="0" pos="4.12495804 0 5.12504578" rot="-1 0 5.21540571e-08 0 1 0 -5.21540571e-08 0 -1" group="3"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_hallway_7.5x3" tags="hallway,room" themes="residential,apartment" width="7.750001" height="3.2500381" formatVersion="2" minAnchors="1" maxAnchors="3">
-        <Terrain width="30" height="12" LayerConstant="0">
+    <Prefab name="MRMGT_a_pair_of_eights_east_hallway_8x3" tags="hallway,room" themes="residential,apartment" width="8.250001" height="3.2500381" formatVersion="2" minAnchors="1" maxAnchors="3">
+        <Terrain width="32" height="12" LayerConstant="0">
             <Materials>
                 <Material>fancy</Material>
             </Materials>
         </Terrain>
         <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="3362029249">
-            <PolyShape num="5" p0="0 0 0" p1="7.50000095 0 0" p2="7.49999809 0 3.00000024" p3="0 0 3.00000024" p4="0 0 0"/>
+            <PolyShape num="5" p0="0 0 0" p1="8.00000095 0 0" p2="7.99999809 0 3.00000024" p3="0 0 3.00000024" p4="0 0 0"/>
         </Entity>
         <Entity template="Grunt Insurgent" id="0" pos="3.87499619 0 1.125" rot="0.0871555656 0 -0.99619627 0 1 0 0.99619627 0 0.0871555656">
             <Targets num="1" id0="17"/>
@@ -6114,8 +6116,8 @@
         <Entity template="table_wood_large_02" id="0" pos="5.87499619 0.45954594 1.125" rot="1 0 7.45057971e-09 0 1 -0 -7.45057971e-09 0 1"/>
         <Entity template="chair_02" id="0" pos="6.99999619 0.650472105 1" rot="-0.939693093 0 -0.34202069 0 1 0 0.34202069 0 -0.939693093"/>
         <Entity template="chair_04" id="0" pos="4.99999619 0.60190028 1" rot="0.984808624 0 -0.173648477 0 1 0 0.173648477 0 0.984808624"/>
-        <Entity template="window_glass_double" id="0" pos="7.625 0 1.625" rot="0 0 1 0 1 -0 -1 0 0"/>
-        <Entity template="window_frame_double" id="0" pos="7.625 0 1.625" rot="0 0 1 0 1 -0 -1 0 0"/>
+        <Entity template="window_glass_double" id="0" pos="8.125 0 1.625" rot="0 0 1 0 1 -0 -1 0 0"/>
+        <Entity template="window_frame_double" id="0" pos="8.125 0 1.625" rot="0 0 1 0 1 -0 -1 0 0"/>
         <Entity template="pillow_02" id="0" pos="1.99573135 0.450337231 2.29846191" rot="-0.984807789 0 0.173648149 0 1 0 -0.173648149 0 -0.984807789"/>
         <Entity template="pillow_01_02" id="0" pos="2.81062317 0.598940134 2.48949432" rot="-0.20509316 -0.109538957 0.972593486 -0.427252948 0.904056132 0.0117240157 -0.880563378 -0.413138956 -0.232216582"/>
         <Entity template="pillow_02_02" id="0" pos="5.34196472 0.993399739 0.925292969" rot="0.939692795 0 -0.342020154 0 1 0 0.342020154 0 0.939692795"/>
@@ -6130,7 +6132,7 @@
         <Entity template="window_glass" id="0" pos="5.875 0 0.125" rot="1 0 0 -0 1 0 0 -0 1"/>
         <Entity template="window_frame" id="0" pos="5.875 8.8817842e-16 0.125" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="curtain_01_02" id="0" pos="5.875 8.94069672e-08 0.25" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="curtain_04_01" id="0" pos="7.5 0 1.625" rot="1.1920929e-07 0 -1 0 1 0 1 -0 1.1920929e-07"/>
+        <Entity template="curtain_04_01" id="0" pos="8 0 1.625" rot="1.1920929e-07 0 -1 0 1 0 1 -0 1.1920929e-07"/>
         <Entity template="Alt. Spawn Point" id="0" pos="2.12499428 0 1.125" rot="0.258819342 0 0.965925813 0 1 0 -0.965925813 0 0.258819342"/>
         <Entity template="Grunt Insurgent" id="0" pos="3.75 0 2.375" rot="-3.05473321e-07 0 -1 0 1 0 1 0 -3.05473321e-07">
             <Targets num="1" id0="19"/>
@@ -6148,9 +6150,9 @@
         <Entity template="door_wood_01" id="0" pos="4.62503815 0 3.12503815" rot="1 0 2.38418579e-07 0 1 0 -2.38418579e-07 0 1" group="4"/>
         <Entity template="door_frame_wood_01" id="0" pos="4.62503815 0 3.12503815" rot="1 0 2.38418579e-07 0 1 0 -2.38418579e-07 0 1" group="4"/>
         <Entity template="barricade_sack_04" id="0" pos="3 0.362930387 1.125" rot="-9.68575478e-08 0 -1 0 1 0 1 0 -9.68575478e-08"/>
-        <Entity template="Wall" id="0" pos="7.62500095 0 0.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="Wall" id="0" pos="8.12500095 0 0.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="0 3" p2="-7.50000095 3" p3="-7.50000095 0" p4="0 0"/>
+                <Branch parent="0" p0="0 0" p1="0 3" p2="-8.00000095 3" p3="-8.00000095 0" p4="0 0"/>
             </Wall>
         </Entity>
     </Prefab>
@@ -6160,7 +6162,7 @@
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.12500596 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="179361408">
+        <Entity template="RMG Tile Shape" id="0" pos="0.12500596 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="1407641686">
             <PolyShape num="5" p0="0 0 0" p1="5.99999857 0 0" p2="5.99999857 0 7.00000048" p3="0 0 7.00000048" p4="0 0 0"/>
         </Entity>
         <Entity template="barricade_sack_04" id="0" pos="3.88248587 0.362930417 2.55602264" rot="0.258819193 0 -0.965925872 0 1 0 0.965925872 0 0.258819193"/>
@@ -6225,14 +6227,14 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_kitchen_5.5x3" tags="room,kitchen" themes="apartment,residential" width="5.7500038" height="3.2500305" formatVersion="2" minAnchors="1" maxAnchors="1">
-        <Terrain width="22" height="12" LayerConstant="0">
+    <Prefab name="MRMGT_a_pair_of_eights_east_kitchen_6x3" tags="kitchen,room" themes="residential,apartment" width="6.2500043" height="3.2500305" formatVersion="2" minAnchors="1" maxAnchors="1">
+        <Terrain width="24" height="12" LayerConstant="0">
             <Materials>
                 <Material>fancy</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125003815 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1">
-            <PolyShape num="5" p0="0 0 0" p1="5.50000048 0 0" p2="5.50000048 0 3.00000048" p3="-1.43051147e-06 0 3.00000048" p4="0 0 0"/>
+        <Entity template="RMG Tile Shape" id="0" pos="0.125003815 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="2976949837">
+            <PolyShape num="5" p0="0 0 0" p1="6.00000048 0 0" p2="6.00000048 0 3.00000048" p3="-1.43051147e-06 0 3.00000048" p4="0 0 0"/>
         </Entity>
         <Entity template="Grunt Insurgent" id="0" pos="3.37500286 0 1.375" rot="-0.98480773 0 0.173648506 0 1 0 -0.173648506 0 -0.98480773">
             <Targets num="1" id0="17"/>
@@ -6244,7 +6246,7 @@
         <Entity template="kitchen_counter_03_02" id="0" pos="1.82522869 0.507202148 0.576225281" rot="0 0 -0.999999881 0 1 0 0.999999881 0 0"/>
         <Entity template="Wall" id="0" pos="0.125003815 0 0.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="-1.43051147e-06 3.00000024" p2="5.50000048 3.00000024" p3="5.5 -2.38418579e-07" p4="-2.38418579e-07 0"/>
+                <Branch parent="0" p0="0 0" p1="-1.43051147e-06 3.00000024" p2="6.00000048 3.00000024" p3="6 -2.38418579e-07" p4="-2.38418579e-07 0"/>
             </Wall>
         </Entity>
         <Entity template="kitchen_stove_01" id="0" pos="0.625002861 0.559176564 2.625" rot="-5.73694706e-07 0 1.00000143 0 1 0 -1.00000143 0 -5.73694706e-07"/>
@@ -6253,8 +6255,8 @@
         <Entity template="kitchen_knife_01" id="0" pos="0.992629051 0.893645048 0.65750885" rot="0.707106948 0 -0.707106829 0 1 0 0.707106829 0 0.707106948"/>
         <Entity template="kitchen_fork_01" id="0" pos="2.69938946 0.910000026 0.662704468" rot="0.173647389 0 -0.984807909 0 1 0 0.984807909 0 0.173647389"/>
         <Entity template="kitchen_rolling_pin_01" id="0" pos="0.554118156 0.937157094 0.54473877" rot="0.939692676 0 -0.342020154 0 1 0 0.342020154 0 0.939692676"/>
-        <Entity template="window_glass_double" id="0" pos="5.62500286 0 1.625" rot="0 0 1 0 1 -0 -1 0 0"/>
-        <Entity template="window_frame_double" id="0" pos="5.62500286 0 1.625" rot="0 0 1 0 1 -0 -1 0 0"/>
+        <Entity template="window_glass_double" id="0" pos="6.12500286 0 1.625" rot="0 0 1 0 1 -0 -1 0 0"/>
+        <Entity template="window_frame_double" id="0" pos="6.12500286 0 1.625" rot="0 0 1 0 1 -0 -1 0 0"/>
         <Entity template="Grunt Insurgent" id="0" pos="2.37500286 0 1.625" rot="0.0871555954 0 -0.99619478 0 1 0 0.99619478 0 0.0871555954">
             <Human needsRescue="false">
                 <Traits chanceToInvestigate="0.039999999" chanceToAmbush="0.34"/>
@@ -6264,36 +6266,36 @@
         <Entity template="roomtone_fridge" id="0" pos="1.75000286 1.60000002 1.875" rot="1 0 0 0 1 0 0 0 1">
             <SoundEmitter maxAttenuationDistance="9.6999998"/>
         </Entity>
-        <Entity template="curtain_04_01" id="0" pos="5.50000286 0 1.625" rot="1.1920929e-07 0 -1 0 1 0 1 -0 1.1920929e-07"/>
+        <Entity template="curtain_04_01" id="0" pos="6.00000286 0 1.625" rot="1.1920929e-07 0 -1 0 1 0 1 -0 1.1920929e-07"/>
         <Entity template="Alt. Spawn Point" id="0" pos="3.50000286 0 2" rot="0.965925932 0 0.258818805 0 1 0 -0.258818805 0 0.965925932"/>
-        <Entity template="door_frame_wood_01" id="0" pos="4.62496567 0 0.125022888" rot="-1 0 6.70552254e-08 0 1 0 -6.70552254e-08 0 -1" group="1"/>
-        <Entity template="door_wood_01" id="0" pos="4.62496567 0 0.125022888" rot="-1 0 6.70552254e-08 0 1 0 -6.70552254e-08 0 -1" group="1"/>
-        <Entity template="door_frame_wood_01" id="0" pos="4.12497425 0 3.12503052" rot="-1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 -1" group="2"/>
-        <Entity template="door_wood_01" id="0" pos="4.12497425 0 3.12503052" rot="-1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 -1" group="2"/>
+        <Entity template="door_frame_wood_01" id="0" pos="5.12496567 0 0.125022888" rot="-1 0 6.70552254e-08 0 1 0 -6.70552254e-08 0 -1" group="1"/>
+        <Entity template="door_wood_01" id="0" pos="5.12496567 0 0.125022888" rot="-1 0 6.70552254e-08 0 1 0 -6.70552254e-08 0 -1" group="1"/>
+        <Entity template="door_frame_wood_01" id="0" pos="4.62497425 0 3.12503052" rot="-1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 -1" group="2"/>
+        <Entity template="door_wood_01" id="0" pos="4.62497425 0 3.12503052" rot="-1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 -1" group="2"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.125 0 1.62506104" rot="-8.19563866e-08 0 -1 0 1 0 1 0 -8.19563866e-08" group="3"/>
         <Entity template="door_wood_01" id="0" pos="0.125 0 1.62506104" rot="-8.19563866e-08 0 -1 0 1 0 1 0 -8.19563866e-08" group="3"/>
         <Entity template="Light Point" id="0" pos="2.87500191 2.0999999 1.75" rot="1 0 0 0 1 0 0 0 1">
             <Light color="FFFFFF" radiusMeters="5.5999999" limitType="Shadow" colorMultiplier="0.81" isIndoorLight="false" startDisabled="false"/>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_bathroom_4.5x4" tags="room,bathroom" themes="apartment,residential" width="4.75" height="4.25" formatVersion="2" minAnchors="1" maxAnchors="1">
-        <Terrain width="18" height="16" LayerConstant="16711680">
+    <Prefab name="MRMGT_a_pair_of_eights_east_bathroom_4x4" tags="bathroom,room" themes="residential,apartment" width="4.25" height="4.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+        <Terrain width="16" height="16" LayerConstant="16711680">
             <Materials>
                 <Material>cement_to_carpet_darkred</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1">
-            <PolyShape num="5" p0="0 0 0" p1="4.5 0 0" p2="4.5 0 3.99999952" p3="0 0 3.99999952" p4="0 0 0"/>
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="2661718675">
+            <PolyShape num="5" p0="0 0 0" p1="4 0 0" p2="4 0 3.99999952" p3="0 0 3.99999952" p4="0 0 0"/>
         </Entity>
-        <Entity template="door_frame_wood_01" id="0" pos="4.625 0 1.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
-        <Entity template="door_wood_01" id="0" pos="4.625 0 1.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
-        <Entity template="Wall" id="0" pos="4.625 0 0.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="door_frame_wood_01" id="0" pos="4.125 0 1.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
+        <Entity template="door_wood_01" id="0" pos="4.125 0 1.625" rot="0 0 0.999999881 0 1 0 -0.999999881 0 0"/>
+        <Entity template="Wall" id="0" pos="4.125 0 0.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="0 3.99999952" p2="-4.5 3.99999952" p3="-4.5 0" p4="0 0"/>
+                <Branch parent="0" p0="0 0" p1="0 3.99999952" p2="-4 3.99999952" p3="-4 0" p4="0 0"/>
             </Wall>
         </Entity>
         <Entity template="bath_01" id="0" pos="1.54851151 0.35007444 3.58970642" rot="-1.00000072 0 -3.94880772e-07 0 1 0 3.94880772e-07 0 -1.00000072"/>
-        <Entity template="sink_02" id="0" pos="4.22147179 0.558171332 3.1097641" rot="-1.00000072 0 3.94880772e-07 0 1 0 -3.94880772e-07 0 -1.00000072"/>
+        <Entity template="sink_02" id="0" pos="3.72147179 0.558171332 3.1097641" rot="-1.00000072 0 3.94880772e-07 0 1 0 -3.94880772e-07 0 -1.00000072"/>
         <Entity template="toilet_01" id="0" pos="1.70500183 0.48225975 0.683517456" rot="2.16066766e-07 0 -1 0 1 0 1 -0 2.16066766e-07"/>
         <Entity template="toilet_03" id="0" pos="0.840000153 0.562033653 0.419998169" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Grunt Insurgent" id="0" pos="1.24999952 0 1.5" rot="-0.173648 0 0.984808683 0 1 0 -0.984808683 0 -0.173648">
@@ -6306,17 +6308,17 @@
         <Entity template="window_frame" id="0" pos="0.125 0 1.5" rot="0 0 0.99999994 0 1 0 -0.99999994 0 0"/>
         <Entity template="chair_lux_01" id="0" pos="0.666553497 0.564457893 2.58420563" scale="0.899999976" rot="0.99619472 0 -0.087155737 0 1 0 0.087155737 -0 0.99619472"/>
         <Entity template="faucet" id="0" pos="0.522792816 0.608817995 3.66123199" rot="0.087155886 0 -0.99619472 0 1 0 0.99619472 -0 0.087155886"/>
-        <Entity template="bath_towel_01" id="0" pos="3.5 0.00999999978 4" rot="-1 0 -3.79979554e-07 0 1 0 3.79979554e-07 0 -1"/>
+        <Entity template="bath_towel_01" id="0" pos="3 0.00999999978 4" rot="-1 0 -3.79979554e-07 0 1 0 3.79979554e-07 0 -1"/>
         <Entity template="Decal Dust Small 02" id="0" pos="0.625 0 3.625" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Decal Dust Small 02" id="0" pos="0.5 0 3.5" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Decal Dust Small 01" id="0" pos="0.5 1.13195312 2.5" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Decal Dust Small 01" id="0" pos="0.875 0.769648433 2.875" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="commode_02" id="0" pos="3.5 0.476218641 0.5" scale="0.799999952" rot="5.96046448e-08 0 -1 0 1 0 1 -0 5.96046448e-08"/>
-        <Entity template="plant_pot" id="0" pos="3.125 1.12697935 0.375" scale="0.399999917" rot="0.939692676 0 -0.342020154 0 1 0 0.342020154 -0 0.939692676"/>
-        <Entity template="news_paper_04" id="0" pos="3 0.861681044 0.5" scale="0.799999952" rot="0.984807789 0 0.173648164 0 1 -0 -0.173648164 0 0.984807789"/>
+        <Entity template="commode_02" id="0" pos="3.125 0.476218641 0.5" scale="0.799999952" rot="5.96046448e-08 0 -1 0 1 0 1 -0 5.96046448e-08"/>
+        <Entity template="plant_pot" id="0" pos="2.75 1.12697935 0.375" scale="0.399999917" rot="0.939692676 0 -0.342020154 0 1 0 0.342020154 -0 0.939692676"/>
+        <Entity template="news_paper_04" id="0" pos="2.625 0.861681044 0.5" scale="0.799999952" rot="0.984807789 0 0.173648164 0 1 -0 -0.173648164 0 0.984807789"/>
         <Entity template="curtain_01_01" id="0" pos="0.25 8.94069672e-08 1.5" rot="1.49011612e-07 0 1 0 1 -0 -1 0 1.49011612e-07"/>
         <Entity template="Effect Zone" id="0" pos="0.25 0 0.25" rot="1 0 0 0 1 0 0 0 1">
-            <PolyShape num="5" p0="0 0 0" p1="4.24999952 0 0" p2="4.24999952 0 3.74999952" p3="-4.76837158e-07 0 3.74999952" p4="0 0 0"/>
+            <PolyShape num="5" p0="0 0 0" p1="3.74999952 0 0" p2="3.74999952 0 3.74999952" p3="-4.76837158e-07 0 3.74999952" p4="0 0 0"/>
             <SoundShader effectID="EFX_REVERB_BATH" defaultIndoors="false" defaultOutdoors="false"/>
         </Entity>
         <Entity template="tap_water_drip" id="0" pos="1.625 1.60000002 3" rot="1 0 0 0 1 0 0 0 1">
@@ -6326,16 +6328,16 @@
             <Light color="FFFFFF" radiusMeters="5.5999999" limitType="Shadow" colorMultiplier="0.81" isIndoorLight="false" startDisabled="false"/>
         </Entity>
         <Entity template="Alt. Spawn Point" id="0" pos="1.87499952 0 2.375" rot="-0.573576152 0 0.819152236 0 1 0 -0.819152236 0 -0.573576152"/>
-        <Entity template="Alt. Spawn Point" id="0" pos="3.125 0 3.375" rot="-0.996194661 0 0.0871561542 0 1 0 -0.0871561542 0 -0.996194661"/>
-        <Entity template="Alt. Spawn Point" id="0" pos="2.5 0 0.625" rot="0.422618568 0 0.906307638 0 1 0 -0.906307638 0 0.422618568"/>
+        <Entity template="Alt. Spawn Point" id="0" pos="2.625 0 3.375" rot="-0.996194661 0 0.0871561542 0 1 0 -0.0871561542 0 -0.996194661"/>
+        <Entity template="Alt. Spawn Point" id="0" pos="2.25000048 0 1" rot="0.422618568 0 0.906307638 0 1 0 -0.906307638 0 0.422618568"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_storage1_4x3" tags="room,storage" themes="apartment,residential" width="4.2500014" height="3.2500153" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_a_pair_of_eights_east_storage1_4x3" tags="room,storage" themes="residential,apartment" width="4.2500014" height="3.2500153" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="16" height="12" LayerConstant="255">
             <Materials>
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="1320644237">
             <PolyShape num="5" p0="0 0 0" p1="4.00000191 0 0" p2="4.00000191 0 2.99999952" p3="0 0 2.99999952" p4="0 0 0"/>
         </Entity>
         <Entity template="Effect Zone" id="0" pos="0.25 0 0.25" rot="1 0 0 0 1 0 0 0 1">
@@ -6373,33 +6375,33 @@
         <Entity template="Alt. Spawn Point" id="0" pos="0.690493584 0 0.873001099" rot="0.173648149 0 0.984807849 0 1 0 -0.984807849 0 0.173648149"/>
         <Entity template="Alt. Spawn Point" id="0" pos="1.69049358 0 1.4980011" rot="-0.98480773 0 -0.173648268 0 1 0 0.173648268 0 -0.98480773"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_storage2_5x3" tags="room,storage" themes="apartment,residential" width="4.7500019" height="3.25" formatVersion="2" minAnchors="1" maxAnchors="1">
-        <Terrain width="18" height="12">
-            <LayerData>AAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAF/wAAEv8AACz/AABA/wAAT/8AAFD/AABK/wAAOP8AABb/AAAC/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAf/wAAu/8AAPf/AAD+/wAA//8AAP//AAD//wAA/P8AAL7/AAAc/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAN/wAAcf8AAOr/AAD+/wAA//8AAP//AAD//wAA/v8AAMz/AAAW/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAB/wAAEv8AAEz/AADk/wAA/P8AAP7/AAD7/wAAxf8AAB3/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAA7/AACa/wAAzP8AAHj/AAAg/wAACP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAH/AAAQ/wAACP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A</LayerData>
-            <MaterialData>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</MaterialData>
+    <Prefab name="MRMGT_a_pair_of_eights_east_storage2_4x3" tags="room,storage" themes="residential,apartment" width="4.2500019" height="3.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+        <Terrain width="16" height="12">
+            <LayerData>AAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAX/AAAS/wAALP8AAED/AABP/wAAUP8AAEr/AAA4/wAAFv8AAAL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAf/wAAu/8AAPf/AAD+/wAA//8AAP//AAD//wAA/P8AAL7/AAAc/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAADf8AAHH/AADq/wAA/v8AAP//AAD//wAA//8AAP7/AADM/wAAFv8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAH/AAAS/wAATP8AAOT/AAD8/wAA/v8AAPv/AADF/wAAHf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAA7/AACa/wAAzP8AAHj/AAAg/wAACP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAB/wAAEP8AAAj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A</LayerData>
+            <MaterialData>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</MaterialData>
             <Materials>
                 <Material>asphalt</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125001907 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1">
-            <PolyShape num="5" p0="0 0 0" p1="4.5 0 0" p2="4.5 0 3.00000095" p3="0 0 3.00000095" p4="0 0 0"/>
+        <Entity template="RMG Tile Shape" id="0" pos="0.125001907 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="3814819531">
+            <PolyShape num="5" p0="0 0 0" p1="4 0 0" p2="4 0 3.00000095" p3="0 0 3.00000095" p4="0 0 0"/>
         </Entity>
-        <Entity template="door_wood_01" id="0" pos="4.625 0 1.625" rot="0 0 1 0 1 0 -1 0 0"/>
-        <Entity template="door_frame_wood_01" id="0" pos="4.625 0 1.625" rot="0 0 1 0 1 0 -1 0 0"/>
+        <Entity template="door_wood_01" id="0" pos="4.125 0 1.625" rot="0 0 1 0 1 0 -1 0 0"/>
+        <Entity template="door_frame_wood_01" id="0" pos="4.125 0 1.625" rot="0 0 1 0 1 0 -1 0 0"/>
         <Entity template="Grunt Insurgent" id="0" pos="2.75 0 1.625" rot="-0.0871552899 0 0.996194839 0 1 0 -0.996194839 0 -0.0871552899">
             <Targets num="1" id0="16"/>
             <Human needsRescue="false">
                 <Traits roamAround="true" roamRadius="2.5"/>
             </Human>
         </Entity>
-        <Entity template="crate_01" id="0" pos="3.875 0.237232521 0.625" rot="2.16066837e-07 0 -1.00000036 0 1 0 1.00000036 0 2.16066837e-07"/>
-        <Entity template="crate_01" id="0" pos="2.375 0.237232521 0.625" rot="2.08616257e-07 0 -1.00000048 0 1 0 1.00000048 0 2.08616257e-07"/>
+        <Entity template="crate_01" id="0" pos="3.45498657 0.237232521 0.669975281" rot="-0.173647851 0 -0.984807849 0 1 0 0.984807849 0 -0.173647851"/>
+        <Entity template="crate_01" id="0" pos="2.37000084 0.237232521 0.625" rot="2.08616257e-07 0 -1.00000048 0 1 0 1.00000048 0 2.08616257e-07"/>
         <Entity template="crate_01" id="0" pos="0.875 0.237232521 0.625" rot="2.08616257e-07 0 -1.00000048 0 1 0 1.00000048 0 2.08616257e-07"/>
         <Entity template="crate_01" id="0" pos="0.875 0.237232521 2.625" rot="2.08616257e-07 0 -1.00000048 0 1 0 1.00000048 0 2.08616257e-07"/>
-        <Entity template="crate_01" id="0" pos="3.875 0.237232521 2.625" rot="2.08616257e-07 0 -1.00000048 0 1 0 1.00000048 0 2.08616257e-07"/>
-        <Entity template="crate_01_02" id="0" pos="2.375 0.237232521 2.625" rot="0 0 -0.99999994 0 1 0 0.99999994 0 0"/>
-        <Entity template="toolbox_01" id="0" pos="1.625 0.108146787 2.625" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="car_tire_02" id="0" pos="3.125 0.317748636 0.625" rot="0.707106709 -0.707106709 0 0.707106709 0.707106709 0 0 0 1"/>
+        <Entity template="crate_01" id="0" pos="3.375 0.237232521 2.625" rot="2.08616257e-07 0 -1.00000048 0 1 0 1.00000048 0 2.08616257e-07"/>
+        <Entity template="crate_01_02" id="0" pos="2.125 0.237232521 2.625" rot="0 0 -0.99999994 0 1 0 0.99999994 0 0"/>
+        <Entity template="toolbox_01" id="0" pos="1.25 0.582873344 2.625" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="car_tire_02" id="0" pos="1.625 0.317748636 0.625" rot="0.707106709 -0.707106709 0 0.707106709 0.707106709 0 0 0 1"/>
         <Entity template="Interact Sit" id="0" pos="2.375 0.0500000007 0.875" rot="1.34110451e-07 0 -1 0 1 0 1 -0 1.34110451e-07">
             <Interactible durationMinMS="15140" look="at"/>
             <POI forEnemies="true"/>
@@ -6407,7 +6409,7 @@
         <Entity template="shovel" id="0" pos="1.75 0.548388541 0.375" rot="1 7.45057971e-09 0 -7.33738892e-09 0.984807789 0.173648164 1.29377953e-09 -0.173648164 0.984807789"/>
         <Entity template="Wall" id="0" pos="0.125001907 0 3.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="4.5 0" p2="4.5 -3" p3="0 -3" p4="0 0"/>
+                <Branch parent="0" p0="0 0" p1="4 0" p2="4 -3" p3="0 -3" p4="0 0"/>
             </Wall>
         </Entity>
         <Entity template="Light Point" id="0" pos="2.375 2.0999999 1.625" rot="1 0 0 0 1 0 0 0 1">
