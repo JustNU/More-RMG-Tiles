@@ -4740,13 +4740,13 @@
             <RandAnchor tags="entrance" mandatory="false"/>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_rat_work_kitchen_5x5" tags="kitchen,room" themes="apartment,residential" width="5.250042" height="5.5833893" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_rat_work_kitchen_5x5" tags="room,kitchen" themes="apartment,residential" width="5.250042" height="5.5833893" formatVersion="2" minAnchors="1" maxAnchors="2">
         <Terrain width="20" height="20" LayerConstant="16711680">
             <Materials>
                 <Material>tiles</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125041962 0.00100000005 0.125038147" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125041962 0.00100000005 0.125038147" rot="1 0 0 0 1 0 0 0 1" tileNameHash="2851451150">
             <PolyShape num="5" p0="0 0 0" p1="5.00000048 0 0" p2="5.00000048 0 5" p3="0 0 5" p4="0 0 0"/>
         </Entity>
         <Entity template="Grunt Insurgent" id="0" pos="2.62504196 0 3.75003815" rot="1.0000006 0 -1.04308128e-07 0 1 0 1.04308128e-07 0 1.0000006">
@@ -4853,13 +4853,13 @@
         <Entity template="Alt. Spawn Point" id="0" pos="1.12504196 0 1.12503815" rot="-0.939692616 0 0.342020303 0 1 0 -0.342020303 0 -0.939692616"/>
         <Entity template="Alt. Spawn Point" id="0" pos="1.62504196 0 2.37503815" rot="0.422617972 0 -0.906307876 0 1 0 0.906307876 0 0.422617972"/>
     </Prefab>
-    <Prefab name="MRMGT_rat_work_bedroom1_4x5" tags="bedroom,room" themes="apartment,residential" width="4.375" height="5.5" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_rat_work_bedroom1_4x5" tags="room,bedroom" themes="apartment,residential" width="4.375" height="5.5" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="16" height="20" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.25 0.00100000005 0.25" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Tile Shape" id="0" pos="0.25 0.00100000005 0.25" rot="1 0 0 0 1 0 0 0 1" tileNameHash="891571612">
             <PolyShape num="5" p0="0 0 0" p1="4 0 0" p2="4 0 5.00000048" p3="0 0 5.00000048" p4="0 0 0"/>
         </Entity>
         <Entity template="Floor" id="0" pos="4.25 0 5.375" rot="1 0 0 0 1 0 0 0 1"/>
@@ -4932,7 +4932,7 @@
         <Entity template="window_frame" id="0" pos="3.25 8.8817842e-16 0.25" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="curtain_01_01" id="0" pos="3.25 8.3223398e-08 0.375" rot="1.00000048 0 -5.21540642e-08 0 1 0 5.21540642e-08 0 1.00000048" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_rat_work_living_6x5" tags="room,living" themes="residential,apartment" width="6.250001" height="5.2500267" formatVersion="2" minAnchors="1" maxAnchors="3">
+    <Prefab name="MRMGT_rat_work_living_6x5" tags="room,living" themes="apartment,residential" width="6.250001" height="5.2500267" formatVersion="2" minAnchors="1" maxAnchors="3">
         <Terrain width="24" height="20" LayerConstant="0">
             <Materials>
                 <Material>floor_wood</Material>
@@ -5038,7 +5038,7 @@
         <Entity template="door_frame_wood_01" id="0" pos="5.12492847 0 5.12499237" rot="-1 0 -1.2665987e-07 0 1 0 1.2665987e-07 0 -1" group="3"/>
         <Entity template="door_wood_01" id="0" pos="5.12492847 0 5.12499237" rot="-1 0 -1.2665987e-07 0 1 0 1.2665987e-07 0 -1" group="3"/>
     </Prefab>
-    <Prefab name="MRMGT_rat_work_bedroom2_5x3" tags="bedroom,room" themes="residential,apartment" width="5.25" height="3.5" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_rat_work_bedroom2_5x3" tags="room,bedroom" themes="apartment,residential" width="5.25" height="3.5" formatVersion="2" minAnchors="1" maxAnchors="1">
         <Terrain width="20" height="12" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
@@ -5109,8 +5109,11 @@
                 <Traits investigateMaxDistanceMeters="0" chanceToInvestigate="0.039999999" chanceToAmbush="0.17"/>
             </Human>
         </Entity>
+        <Entity template="window_glass" id="0" pos="1.625 0 3.375" rot="1 0 0 -0 1 0 0 -0 1" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="1.625 8.8817842e-16 3.375" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
+        <Entity template="curtain_01_01" id="0" pos="1.625 8.3223398e-08 3.25" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_rat_work_hallway_2x7" tags="hallway,room" themes="residential,apartment" width="2.2500439" height="7.2500191" formatVersion="2" minAnchors="1">
+    <Prefab name="MRMGT_rat_work_hallway_2x7" tags="room,hallway" themes="apartment,residential" width="2.2500439" height="7.2500191" formatVersion="2" minAnchors="1">
         <Terrain width="8" height="28" LayerConstant="0">
             <Materials>
                 <Material>tiles_02</Material>
@@ -5183,6 +5186,22 @@
         <Entity template="crate_01" id="0" pos="0.625043869 3.07621694 3.12501907" rot="-0.98480773 -5.61942812e-08 -0.173648641 -4.37113563e-08 1 -7.5710318e-08 0.173648641 -6.69697116e-08 -0.98480773"/>
         <Entity template="plastic_gallon_red" id="0" pos="0.723430634 2.96566463 3.94889832" rot="0.906307876 0.421010196 0.0368335396 3.71111497e-08 -0.0871556625 0.996194959 0.42261827 -0.90285933 -0.0789898708"/>
         <Entity template="crate_01" id="0" pos="0.625043869 2.60258412 3.62501907" rot="-1.00000143 0 4.17232513e-07 0 1 0 -4.17232513e-07 0 -1.00000143"/>
+        <Entity template="window_glass" id="0" pos="0.125043869 0 6.12501907" rot="8.19563866e-08 0 1 0 1 0 -1 0 8.19563866e-08" group="4" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="0.125043869 0 6.12501907" rot="8.19563866e-08 0 1 0 1 0 -1 0 8.19563866e-08" group="4" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="0.125043869 0 4.87501907" rot="8.19563866e-08 0 1 0 1 0 -1 0 8.19563866e-08" group="5" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="0.125043869 0 4.87501907" rot="8.19563866e-08 0 1 0 1 0 -1 0 8.19563866e-08" group="5" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="0.125043869 0 3.62501907" rot="8.19563866e-08 0 1 0 1 0 -1 0 8.19563866e-08" group="6" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="0.125043869 0 3.62501907" rot="8.19563866e-08 0 1 0 1 0 -1 0 8.19563866e-08" group="6" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="0.125043869 0 2.37501907" rot="8.19563866e-08 0 1 0 1 0 -1 0 8.19563866e-08" group="7" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="0.125043869 0 2.37501907" rot="8.19563866e-08 0 1 0 1 0 -1 0 8.19563866e-08" group="7" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="0.125043869 0 1.12501907" rot="2.98023224e-08 0 1 0 1 0 -1 0 2.98023224e-08" group="8" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="0.125043869 0 1.12501907" rot="2.98023224e-08 0 1 0 1 0 -1 0 2.98023224e-08" group="8" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="2.12504387 0 3.62501907" rot="0 0 1.00000012 0 1 0 -1.00000012 0 0" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="2.12504387 0 3.62501907" rot="0 0 1.00000012 0 1 0 -1.00000012 0 0" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="2.12504387 0 2.37501907" rot="0 0 1.00000012 0 1 0 -1.00000012 0 0" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="2.12504387 0 2.37501907" rot="0 0 1.00000012 0 1 0 -1.00000012 0 0" layerMask="1"/>
+        <Entity template="window_glass" id="0" pos="2.12504387 0 4.87501907" rot="0 0 1.00000024 0 1 0 -1.00000024 0 0" layerMask="1"/>
+        <Entity template="window_frame" id="0" pos="2.12504387 0 4.87501907" rot="0 0 1.00000024 0 1 0 -1.00000024 0 0" layerMask="1"/>
     </Prefab>
     <Prefab name="MRMGT_a_pair_of_eights_west_bedroom1_5x7" tags="room,bedroom" themes="apartment,residential" width="5.2500725" height="7.25" formatVersion="2" minAnchors="1" maxAnchors="2">
         <Terrain width="20" height="28" LayerConstant="65280">
