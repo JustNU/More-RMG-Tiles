@@ -52,8 +52,8 @@
                 <Material>asphalt</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125041962 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="2151470184">
-            <PolyShape num="6" p0="0 0 0" p1="3 0 0" p2="5 0 4.76837158e-07" p3="5 0 7.00000048" p4="0 0 7.00000048" p5="0 0 0"/>
+        <Entity template="RMG Tile Shape" id="0" pos="0.125041962 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="74768272">
+            <PolyShape num="5" p0="0 0 0" p1="5 0 4.76837158e-07" p2="5 0 7.00000048" p3="0 0 7.00000048" p4="0 0 0"/>
         </Entity>
         <Entity template="pallet_01" id="0" pos="4.28061295 0 3.86362457" rot="-0.0871555507 0 0.996195078 0 1 0 -0.996195078 0 -0.0871555507"/>
         <Entity template="pallet_01" id="0" pos="4.28538418 0.151390627 3.88484001" rot="0.0871559829 0 0.996195197 0 1 0 -0.996195197 0 0.0871559829"/>
@@ -169,7 +169,7 @@
         <Entity template="Alt. Spawn Point" id="0" pos="1.50004005 0 1.625" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07"/>
         <Entity template="Wall" id="0" pos="5.12504196 0 0.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="0 7.00000048" p2="-5.00000048 7.00000048" p3="-5.00000048 0" p4="0.125 0"/>
+                <Branch parent="0" p0="0 0" p1="0 7.00000048" p2="-5.00000048 7.00000048" p3="-5.00000048 0" p4="0 0"/>
             </Wall>
         </Entity>
         <Entity template="window_glass" id="0" pos="4.12504196 0 0.125" rot="1 0 0 -0 1 0 0 -0 1" group="4" layerMask="1"/>
