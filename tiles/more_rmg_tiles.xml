@@ -2024,7 +2024,7 @@
                 <Material>asphalt</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="1782185710">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="3416403604">
             <PolyShape num="5" p0="0 0 0" p1="7.00000048 0 0" p2="7.00000048 0 3.00000048" p3="0 0 3.00000048" p4="0 0 0"/>
         </Entity>
         <Entity template="Deploy Slot" id="0" pos="1.625 0.100000001 0.875" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07"/>
@@ -2052,7 +2052,7 @@
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="RescueZone" id="0" pos="2.875 0.0299999993 2" rot="1 -0 0 0 1 -0 0 0 1"/>
+        <Entity template="RescueZone" id="0" pos="3.25 0.0299999993 2" rot="1 -0 0 0 1 -0 0 0 1"/>
         <Entity template="Deploy Slot" id="0" pos="2.625 0.100000001 0.875" rot="-8.94069672e-08 0 1.00000072 0 1 0 -1.00000072 0 -8.94069672e-08"/>
         <Entity template="Deploy Slot" id="0" pos="5.5 0.100000001 0.875" rot="-0.642787874 0 -0.766044796 0 1 0 0.766044796 0 -0.642787874"/>
         <Entity template="Deploy Slot" id="0" pos="6.5 0.100000001 0.875" rot="0 0 -1.00000036 0 1 0 1.00000036 0 0"/>
@@ -2064,10 +2064,10 @@
         <Entity template="door_threshold_flat_01" id="0" pos="4.62496185 0 0.125041962" rot="-1.00000143 0 -2.98023224e-08 0 1 0 2.98023224e-08 0 -1.00000143"/>
         <Entity template="door_flat_01" id="0" pos="4.62496185 0 0.125041962" rot="1.00000143 0 -6.70552254e-08 0 1 0 6.70552254e-08 0 1.00000143"/>
         <Entity template="door_frame_flat_01" id="0" pos="4.62496185 0 0.125041962" rot="-1.00000143 0 6.70552254e-08 0 1 0 -6.70552254e-08 0 -1.00000143"/>
-        <Entity template="HVT EscapeZone" id="0" pos="1.125 0.0299999993 2.5" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="door_threshold_wood_01" id="0" pos="1.12491989 0 3.125" rot="-1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 -1" group="1"/>
-        <Entity template="door_frame_wood_01" id="0" pos="1.12491989 0 3.125" rot="-1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 -1" group="1"/>
-        <Entity template="door_wood_01" id="0" pos="1.12491989 0 3.125" rot="-1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 -1" group="1"/>
+        <Entity template="HVT EscapeZone" id="0" pos="1.625 0.0299999993 2.5" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="door_threshold_wood_01" id="0" pos="1.62491989 0 3.125" rot="-1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 -1" group="1"/>
+        <Entity template="door_frame_wood_01" id="0" pos="1.62491989 0 3.125" rot="-1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 -1" group="1"/>
+        <Entity template="door_wood_01" id="0" pos="1.62491989 0 3.125" rot="-1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 -1" group="1"/>
         <Entity template="Wall" id="0" pos="0.125 0 3.125" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
                 <Branch parent="0" p0="0 0" p1="6.99999809 0" p2="6.99999809 -3" p3="0 -3" p4="0 0"/>
