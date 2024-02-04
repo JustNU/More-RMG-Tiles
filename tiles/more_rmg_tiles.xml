@@ -7603,7 +7603,7 @@
         <Entity template="door_threshold_wood_01" id="0" pos="1.62505245 0 6.12499332" rot="1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 1" group="2"/>
         <Entity template="door_wood_01_locked" id="0" pos="1.62505245 0 6.12499332" rot="1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 1" group="2"/>
     </Prefab>
-    <Prefab name="MRMGT_room_service_balcony_4x3" tags="balcony,room" themes="apartment" width="4.3749962" height="3.458333" formatVersion="2" partialOutsideConstraints="true">
+    <Prefab name="MRMGT_room_service_balcony_4x3" tags="balcony,room" themes="apartment" width="4.3749962" height="3.458333" formatVersion="2" partialOutsideConstraints="true" maxAnchors="1">
         <Terrain width="16" height="12">
             <LayerData>AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wD/AP8A/wD/AP8A/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A/wD/AP8A/wD/AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AP8A/wD/AP8A/wD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wD/AP8A/wD/AP8A/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A/wD/AP8A/wD/AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AP8A/wD/AP8A/wD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wD/AP8A/wD/AP8A/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A/wD/AP8A/wD/AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AP8A/wD/AP8A/wD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wD/AP8A/wD/AP8A/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A/wD/AP8A/wD/</LayerData>
             <MaterialData>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</MaterialData>
@@ -7635,9 +7635,8 @@
         <Entity template="metal_railing" id="0" pos="1.12499809 0.400000006 3.12498188" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="metal_railing" id="0" pos="3.12499619 0.400000006 3.12498188" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="metal_railing" id="0" pos="4.12499619 0.400000006 2.12498188" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
-        <Entity template="metal_railing" id="0" pos="0.124998093 10.4049997 2.12498188" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
+        <Entity template="metal_railing" id="0" pos="0.124998093 0.400000006 2.12498188" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
         <Entity template="metal_railing" id="0" pos="0.124998093 0.400000006 1.12498283" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
-        <Entity template="metal_railing" id="0" pos="4.12499619 1.33078122 1.12498093" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
         <Entity template="door_threshold_wood_01" id="0" pos="0.125 0 1.62503624" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" group="1"/>
         <Entity template="door_wood_01" id="0" pos="0.125 0 1.62503624" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" group="1"/>
         <Entity template="door_frame_wood_01" id="0" pos="0.125 0 1.62503624" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" group="1"/>
@@ -7655,7 +7654,8 @@
         <Entity template="RMG Outside Constraint" id="0" pos="4.24999619 0.00100000005 0.624982834" rot="1.41561031e-07 0 1 0 1 0 -1 0 1.41561031e-07"/>
         <Entity template="RMG Outside Constraint" id="0" pos="2.62499809 0.00100000005 -1.71661377e-05" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="RMG Outside Constraint" id="0" pos="3.625 0.00100000005 -1.71661377e-05" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="metal_railing" id="0" pos="3.12499428 10.4040232 0.124980927" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1"/>
+        <Entity template="metal_railing" id="0" pos="3.12499428 0.400000006 0.124980927" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1"/>
+        <Entity template="metal_railing" id="0" pos="4.12499619 0.399999976 1.12498283" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
     </Prefab>
     <Prefab name="MRMGT_room_service_spawn_10x3" tags="spawn_entrance" themes="apartment" width="10.25" height="3.25" formatVersion="2" noEnemies="true">
         <Terrain width="40" height="12" LayerConstant="16711680">
