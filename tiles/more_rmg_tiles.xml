@@ -377,7 +377,7 @@
         <Entity template="window_frame" id="0" pos="4.12503052 0 1.625" rot="1.49011612e-07 0 1 0 1 0 -1 0 1.49011612e-07" group="4" layerMask="1"/>
         <Entity template="curtain_02_01" id="0" pos="4.00003052 0 1.62499619" rot="-1.49011612e-07 0 -1 0 1 0 1 0 -1.49011612e-07" group="4" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_killing_time_armory1_5x3" tags="room,armory" themes="compound" width="5.2500458" height="3.2500324" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_killing_time_armory1_5x3" tags="room,armory" themes="compound" width="5.2500458" height="3.2500324" formatVersion="2" minAnchors="1">
         <Terrain width="20" height="12" LayerConstant="16711680">
             <Materials>
                 <Material>asphalt</Material>
@@ -2168,7 +2168,7 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_why_we_fight_entrance_5x4" tags="entrance,room,common" themes="compound" width="5.2759342" height="4.2500381" formatVersion="2" minAnchors="2" maxAnchors="3">
+    <Prefab name="MRMGT_why_we_fight_entrance_5x4" tags="entrance,room,common" themes="compound" width="5.2759342" height="4.2500381" formatVersion="2" minAnchors="2">
         <Terrain width="20" height="16" LayerConstant="65280">
             <Materials>
                 <Material>asphalt</Material>
@@ -2378,7 +2378,7 @@
         <Entity template="window_frame" id="0" pos="2.01210022 0 0.251283407" rot="-1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 -1" group="5" layerMask="1"/>
         <Entity template="window_single_metal_bars" id="0" pos="2.01210022 0.125999928 0.251283407" rot="-1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 -1" group="5" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_why_we_fight_mess1_3x6" tags="entrance,room,mess" themes="compound" width="3.2500343" height="6.25" formatVersion="2" minAnchors="1" maxAnchors="3">
+    <Prefab name="MRMGT_why_we_fight_mess1_3x6" tags="entrance,room,mess" themes="compound" width="3.2500343" height="6.25" formatVersion="2" minAnchors="1">
         <Terrain width="12" height="24" LayerConstant="65280">
             <Materials>
                 <Material>asphalt</Material>
@@ -2439,7 +2439,7 @@
         <Entity template="window_glass" id="0" pos="3.12503433 0 3.625" rot="1.34110451e-07 0 1 0 1 0 -1 0 1.34110451e-07" group="5" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="3.12503433 0 3.625" rot="1.34110451e-07 0 1 0 1 0 -1 0 1.34110451e-07" group="5" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_why_we_fight_mess2_5x6" tags="entrance,room,mess" themes="compound" width="5.2500305" height="6.2500405" formatVersion="2" minAnchors="2" maxAnchors="3">
+    <Prefab name="MRMGT_why_we_fight_mess2_5x6" tags="entrance,room,mess" themes="compound" width="5.2500305" height="6.2500405" formatVersion="2" minAnchors="2">
         <Terrain width="20" height="24" LayerConstant="65280">
             <Materials>
                 <Material>asphalt</Material>
@@ -3232,7 +3232,7 @@
         <Entity template="window_glass" id="0" pos="1.62500381 0 3.125" rot="1 0 0 -0 1 0 0 -0 1" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="1.62500381 8.8817842e-16 3.125" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_gate_crashers_armory2_4x7" tags="room,armory" themes="compound" width="4.25" height="7.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_gate_crashers_armory2_4x7" tags="room,armory" themes="compound" width="4.25" height="7.25" formatVersion="2" minAnchors="1">
         <Terrain width="16" height="28" LayerConstant="16711680">
             <Materials>
                 <Material>asphalt</Material>
@@ -3495,7 +3495,7 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_gate_crashers_bedroom_4x3" tags="bedroom,room" themes="residential,apartment" width="4.25" height="3.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_gate_crashers_bedroom_4x3" tags="bedroom,room" themes="residential,apartment" width="4.25" height="3.25" formatVersion="2" minAnchors="1">
         <Terrain width="16" height="12">
             <LayerData>AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8A</LayerData>
             <MaterialData>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</MaterialData>
@@ -3673,7 +3673,7 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_gate_crashers_bathroom_4x3" tags="bathroom,room" themes="residential,apartment" width="4.25" height="3.5819778" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_gate_crashers_bathroom_4x3" tags="bathroom,room" themes="residential,apartment" width="4.25" height="3.5819778" formatVersion="2" minAnchors="1">
         <Terrain width="16" height="12" LayerConstant="16711680">
             <Materials>
                 <Material>cement_to_carpet_darkred</Material>
@@ -3719,7 +3719,7 @@
         </Entity>
         <Entity template="Alt. Spawn Point" id="0" pos="1.125 0 2.83197784" rot="-0.0871556029 0 0.996196151 0 1 0 -0.996196151 0 -0.0871556029"/>
     </Prefab>
-    <Prefab name="MRMGT_knives_in_the_dark_living1_5x4" tags="living,room" themes="residential,apartment" width="5.25" height="4.2500496" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_knives_in_the_dark_living1_5x4" tags="living,room" themes="residential,apartment" width="5.25" height="4.2500496" formatVersion="2" minAnchors="1">
         <Terrain width="20" height="16" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
@@ -3883,7 +3883,7 @@
         <Entity template="window_frame" id="0" pos="3.625 8.8817842e-16 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="curtain_03_01" id="0" pos="3.625 9.7681621e-08 0.25" rot="1 0 4.47034836e-08 0 1 -0 -4.47034836e-08 0 1" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_knives_in_the_dark_bedroom2_9x4" tags="bedroom,living,room" themes="residential,apartment" width="9.25" height="4.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_knives_in_the_dark_bedroom2_9x4" tags="bedroom,living,room" themes="residential,apartment" width="9.25" height="4.25" formatVersion="2" minAnchors="1" maxAnchors="2">
         <Terrain width="36" height="16" LayerConstant="16711680">
             <Materials>
                 <Material>tiles</Material>
@@ -3982,7 +3982,7 @@
             </Human>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_knives_in_the_dark_kitchen_6x4" tags="kitchen,room" themes="residential,apartment" width="6.2500019" height="4.2500458" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_knives_in_the_dark_kitchen_6x4" tags="kitchen,room" themes="residential,apartment" width="6.2500019" height="4.2500458" formatVersion="2" minAnchors="1" maxAnchors="3">
         <Terrain width="24" height="16" LayerConstant="16711680">
             <Materials>
                 <Material>tiles</Material>
@@ -4247,7 +4247,7 @@
         <Entity template="window_glass" id="0" pos="3.375 0 0.125" rot="1 0 0 -0 1 0 0 -0 1" group="2"/>
         <Entity template="window_frame" id="0" pos="3.375 8.8817842e-16 0.125" rot="1 0 0 0 1 0 0 0 1" group="2"/>
     </Prefab>
-    <Prefab name="MRMGT_speed_is_life_living_6x4" tags="living,room" themes="residential,apartment" width="6.25" height="4.25" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_speed_is_life_living_6x4" tags="living,room" themes="residential,apartment" width="6.25" height="4.25" formatVersion="2" minAnchors="1">
         <Terrain width="24" height="16" LayerConstant="65280">
             <Materials>
                 <Material>carpets_02</Material>
@@ -4679,7 +4679,7 @@
             <RandAnchor tags="entrance" mandatory="false"/>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_rat_work_kitchen_5x5" tags="kitchen,room" themes="residential,apartment" width="5.2500458" height="5.5833893" formatVersion="2" minAnchors="1" maxAnchors="2">
+    <Prefab name="MRMGT_rat_work_kitchen_5x5" tags="kitchen,room" themes="residential,apartment" width="5.2500458" height="5.5833893" formatVersion="2" minAnchors="1">
         <Terrain width="20" height="20" LayerConstant="16711680">
             <Materials>
                 <Material>tiles</Material>
@@ -5280,7 +5280,7 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_west_storage_3x3" tags="room,storage" themes="residential,apartment" width="3.25" height="3.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_a_pair_of_eights_west_storage_3x3" tags="room,storage" themes="residential,apartment" width="3.25" height="3.25" formatVersion="2" minAnchors="1">
         <Terrain width="12" height="12" LayerConstant="65280">
             <Materials>
                 <Material>floor_wood</Material>
@@ -5417,7 +5417,7 @@
         <Entity template="RMG Outside Constraint" id="0" pos="3.375 0.00100000005 0.48941803" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="RMG Outside Constraint" id="0" pos="2.375 0.00100000005 0.48941803" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_west_kitchen_9x4" tags="kitchen,room" themes="residential,apartment" width="9.3294163" height="4.2500229" formatVersion="2" minAnchors="1" maxAnchors="3">
+    <Prefab name="MRMGT_a_pair_of_eights_west_kitchen_9x4" tags="kitchen,room" themes="residential,apartment" width="9.3294163" height="4.2500229" formatVersion="2" minAnchors="1" maxAnchors="2">
         <Terrain width="36" height="16" LayerConstant="0">
             <Materials>
                 <Material>fancy</Material>
@@ -5742,7 +5742,7 @@
         <Entity template="Alt. Spawn Point" id="0" pos="2.375 0 2.5" rot="-0.819151998 0 -0.57357645 0 1 0 0.57357645 0 -0.819151998"/>
         <Entity template="Alt. Spawn Point" id="0" pos="2.375 0 0.75" rot="0.819152117 0 -0.573576391 0 1 0 0.573576391 0 0.819152117"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_west_bathroom2_2x2" tags="bathroom,room" themes="residential,apartment" width="2.25" height="2.2500153" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_a_pair_of_eights_west_bathroom2_2x2" tags="bathroom,room" themes="residential,apartment" width="2.25" height="2.2500153" formatVersion="2" minAnchors="1">
         <Terrain width="8" height="8" LayerConstant="16711680">
             <Materials>
                 <Material>cement_to_carpet_darkred</Material>
@@ -5781,7 +5781,7 @@
             </Human>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_west_bathroom3_2x3" tags="bathroom,room" themes="residential,apartment" width="2.250001" height="3.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_a_pair_of_eights_west_bathroom3_2x3" tags="bathroom,room" themes="residential,apartment" width="2.250001" height="3.25" formatVersion="2" minAnchors="1">
         <Terrain width="8" height="12" LayerConstant="16711680">
             <Materials>
                 <Material>cement_to_carpet_darkred</Material>
@@ -5999,7 +5999,7 @@
         <Entity template="window_glass" id="0" pos="0.125000954 0 2.625" rot="0 0 0.99999994 0 1 0 -0.99999994 0 0" layerMask="1"/>
         <Entity template="window_frame" id="0" pos="0.125000954 0 2.625" rot="0 0 0.99999994 0 1 0 -0.99999994 0 0" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_hallway_8x3" tags="hallway,room" themes="residential,apartment" width="8.25" height="3.2500381" formatVersion="2" minAnchors="1" maxAnchors="3">
+    <Prefab name="MRMGT_a_pair_of_eights_east_hallway_8x3" tags="hallway,room" themes="residential,apartment" width="8.25" height="3.2500381" formatVersion="2" minAnchors="1">
         <Terrain width="32" height="12" LayerConstant="0">
             <Materials>
                 <Material>fancy</Material>
@@ -6129,7 +6129,7 @@
             </Wall>
         </Entity>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_kitchen_6x3" tags="kitchen,room" themes="residential,apartment" width="6.2500038" height="3.2500305" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_a_pair_of_eights_east_kitchen_6x3" tags="kitchen,room" themes="residential,apartment" width="6.2500038" height="3.2500305" formatVersion="2" minAnchors="1" maxAnchors="2">
         <Terrain width="24" height="12" LayerConstant="0">
             <Materials>
                 <Material>fancy</Material>
@@ -6180,7 +6180,7 @@
         <Entity template="door_frame_wood_01" id="0" pos="4.62496567 0 0.125022888" rot="-1 0 6.70552254e-08 0 1 0 -6.70552254e-08 0 -1" group="3"/>
         <Entity template="door_wood_01" id="0" pos="4.62496567 0 0.125022888" rot="-1 0 6.70552254e-08 0 1 0 -6.70552254e-08 0 -1" group="3"/>
     </Prefab>
-    <Prefab name="MRMGT_a_pair_of_eights_east_bathroom_4x4" tags="bathroom,room" themes="residential,apartment" width="4.25" height="4.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_a_pair_of_eights_east_bathroom_4x4" tags="bathroom,room" themes="residential,apartment" width="4.25" height="4.25" formatVersion="2" minAnchors="1">
         <Terrain width="16" height="16" LayerConstant="16711680">
             <Materials>
                 <Material>cement_to_carpet_darkred</Material>
@@ -7973,7 +7973,7 @@
         <Entity template="Alt. Spawn Point" id="0" pos="1.62504578 0 1.50001717" rot="-4.76837158e-07 0 -1 0 1 0 1 0 -4.76837158e-07"/>
         <Entity template="Alt. Spawn Point" id="0" pos="0.625045776 0 0.625017166" rot="-1 0 3.20374966e-07 0 1 0 -3.20374966e-07 0 -1"/>
     </Prefab>
-    <Prefab name="MRMGT_room_service_bath2_3x2" tags="bathroom,room" themes="residential,apartment" width="3.25" height="2.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_room_service_bath2_3x2" tags="bathroom,room" themes="residential,apartment" width="3.25" height="2.25" formatVersion="2" minAnchors="1">
         <Terrain width="12" height="8" LayerConstant="16711680">
             <Materials>
                 <Material>tiles</Material>
@@ -8013,7 +8013,7 @@
         <Entity template="Alt. Spawn Point" id="0" pos="2.25 0 1.375" rot="-0.642787516 0 0.766044676 0 1 0 -0.766044676 0 -0.642787516"/>
         <Entity template="Alt. Spawn Point" id="0" pos="2 0 0.75" rot="-0.984807849 0 -0.173647851 0 1 0 0.173647851 0 -0.984807849"/>
     </Prefab>
-    <Prefab name="MRMGT_room_service_bath3_3x2" tags="bathroom,room" themes="residential,apartment" width="3.2500267" height="2.25" formatVersion="2" minAnchors="1" maxAnchors="1">
+    <Prefab name="MRMGT_room_service_bath3_3x2" tags="bathroom,room" themes="residential,apartment" width="3.2500267" height="2.25" formatVersion="2" minAnchors="1">
         <Terrain width="12" height="8" LayerConstant="16711680">
             <Materials>
                 <Material>tiles</Material>
