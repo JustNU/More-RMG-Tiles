@@ -7423,7 +7423,7 @@
         <Entity template="door_threshold_wood_01" id="0" pos="1.62505245 0 6.12499332" rot="1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 1" group="2"/>
         <Entity template="door_wood_01_locked" id="0" pos="1.62505245 0 6.12499332" rot="1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 1" group="2"/>
     </Prefab>
-    <Prefab name="MRMGT_room_service_balcony_4x3" tags="balcony,room" themes="apartment" width="4.3749962" height="3.458333" formatVersion="2" partialOutsideConstraints="true" maxAnchors="1">
+    <Prefab name="MRMGT_room_service_balcony_4x3" tags="room,balcony" themes="apartment" width="4.3749981" height="3.4583502" formatVersion="2" partialOutsideConstraints="true" maxAnchors="1">
         <Terrain width="16" height="12">
             <LayerData>AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wD/AP8A/wD/AP8A/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A/wD/AP8A/wD/AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AP8A/wD/AP8A/wD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wD/AP8A/wD/AP8A/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A/wD/AP8A/wD/AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AP8A/wD/AP8A/wD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wD/AP8A/wD/AP8A/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A/wD/AP8A/wD/AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AP8A/wD/AP8A/wD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wD/AP8A/wD/AP8A/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8A/wD/AP8A/wD/</LayerData>
             <MaterialData>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</MaterialData>
@@ -7431,51 +7431,62 @@
                 <Material>tiles</Material>
             </Materials>
         </Terrain>
-        <Entity template="RMG Tile Shape" id="0" pos="0.124998093 0.00100000005 0.124982834" rot="1 0 0 0 1 0 0 0 1" tileNameHash="1786450305">
+        <Entity template="RMG Tile Shape" id="0" pos="0.125 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" tileNameHash="1786450305">
             <PolyShape num="5" p0="0 0 0" p1="4 0 0" p2="4 0 3.00000024" p3="0 0 3.00000024" p4="0 0 0"/>
         </Entity>
-        <Entity template="Suicide Bomber" id="0" pos="2.74999619 0 1.74998283" rot="-1.00000083 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 -1.00000083">
+        <Entity template="Suicide Bomber" id="0" pos="2.74999809 0 1.75" rot="-1.00000083 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 -1.00000083">
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="6" chanceToInvestigate="0.029999999" chanceToAmbush="0.16"/>
             </Human>
         </Entity>
-        <Entity template="Hostage" id="0" pos="1.12499809 0 1.62498283" rot="1.93715096e-07 0 1.00000036 0 1 0 -1.00000036 0 1.93715096e-07">
+        <Entity template="Hostage" id="0" pos="1.125 0 1.625" rot="1.93715096e-07 0 1.00000036 0 1 0 -1.00000036 0 1.93715096e-07">
             <Targets num="1" id0="3"/>
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="chair_02" id="0" pos="0.874998093 0.650472105 0.749982834" rot="0.173648417 0 -0.984807968 0 1 0 0.984807968 0 0.173648417"/>
-        <Entity template="decal_stain_small_04" id="0" pos="3.37499619 0.00999999978 1.24998283" rot="1.63912773e-07 0 -1.00000024 0 1 0 1.00000024 0 1.63912773e-07"/>
-        <Entity template="decal_stain_small_04" id="0" pos="3.12499619 0.00999999978 2.37498283" rot="-0.996195257 0 0.0871554539 0 1 0 -0.0871554539 0 -0.996195257"/>
-        <Entity template="decal_stain_small_03" id="0" pos="1.24999809 0.00999999978 2.24998283" rot="-1.00000083 0 -1.86264515e-07 0 1 0 1.86264515e-07 0 -1.00000083"/>
-        <Entity template="metal_railing" id="0" pos="1.12499809 0.400000006 3.12498188" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="metal_railing" id="0" pos="3.12499619 0.400000006 3.12498188" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="metal_railing" id="0" pos="4.12499619 0.400000006 2.12498188" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
-        <Entity template="metal_railing" id="0" pos="0.179988861 0.400000006 2.12498188" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
-        <Entity template="metal_railing" id="0" pos="0.179988861 0.400000006 1.12498283" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
-        <Entity template="metal_railing" id="0" pos="1.12499619 0.400000006 0.154975891" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="1.62499809 0.00100000005 -1.71661377e-05" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="0.624998093 0.00100000005 -1.71661377e-05" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="-1.90734863e-06 0.00100000005 0.624982834" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="-1.90734863e-06 0.00100000005 2.62498188" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="0.624998093 0.00100000005 3.24998188" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="1.62499809 0.00100000005 3.24998188" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="2.62499809 0.00100000005 3.24998188" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="3.62499619 0.00100000005 3.24998188" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="4.24999619 0.00100000005 2.62498188" rot="1.41561031e-07 0 1 0 1 0 -1 0 1.41561031e-07"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="4.24999619 0.00100000005 1.62498188" rot="1.41561031e-07 0 1 0 1 0 -1 0 1.41561031e-07"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="4.24999619 0.00100000005 0.624982834" rot="1.41561031e-07 0 1 0 1 0 -1 0 1.41561031e-07"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="2.62499809 0.00100000005 -1.71661377e-05" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="RMG Outside Constraint" id="0" pos="3.625 0.00100000005 -1.71661377e-05" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="metal_railing" id="0" pos="3.12499428 0.400000006 0.154975891" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1"/>
-        <Entity template="metal_railing" id="0" pos="4.12499619 0.399999976 1.12498283" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
-        <Entity template="door_threshold_wood_01" id="0" pos="2.62495804 0 0.125" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024"/>
-        <Entity template="door_wood_01" id="0" pos="2.62495804 0 0.125" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024"/>
-        <Entity template="door_frame_wood_01" id="0" pos="2.62495804 0 0.125" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024"/>
-        <Entity template="door_threshold_wood_01" id="0" pos="0.125 0 1.62503624" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" group="1"/>
-        <Entity template="door_wood_01" id="0" pos="0.125 0 1.62503624" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" group="1"/>
-        <Entity template="door_frame_wood_01" id="0" pos="0.125 0 1.62503624" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" group="1"/>
+        <Entity template="chair_02" id="0" pos="0.875 0.650472105 0.75" rot="0.173648417 0 -0.984807968 0 1 0 0.984807968 0 0.173648417"/>
+        <Entity template="decal_stain_small_04" id="0" pos="3.37499809 0.00999999978 1.25" rot="1.63912773e-07 0 -1.00000024 0 1 0 1.00000024 0 1.63912773e-07"/>
+        <Entity template="decal_stain_small_04" id="0" pos="3.12499809 0.00999999978 2.375" rot="-0.996195257 0 0.0871554539 0 1 0 -0.0871554539 0 -0.996195257"/>
+        <Entity template="decal_stain_small_03" id="0" pos="1.25 0.00999999978 2.25" rot="-1.00000083 0 -1.86264515e-07 0 1 0 1.86264515e-07 0 -1.00000083"/>
+        <Entity template="metal_railing" id="0" pos="1.125 0.400000006 3.12499905" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="metal_railing" id="0" pos="3.12499809 0.400000006 3.12499905" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="metal_railing" id="0" pos="4.12499809 0.400000006 2.12499905" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
+        <Entity template="metal_railing" id="0" pos="0.179990768 0.400000006 2.12499905" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
+        <Entity template="metal_railing" id="0" pos="0.179990768 0.400000006 1.125" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
+        <Entity template="metal_railing" id="0" pos="1.12499809 0.400000006 0.154993057" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1"/>
+        <Entity template="RMG Outside Constraint" id="0" pos="0.625 0.00100000005 0" rot="1 0 0 0 1 0 0 0 1">
+            <Targets num="1" id0="12"/>
+        </Entity>
+        <Entity template="RMG Outside Constraint" id="0" pos="0 0.00100000005 0.625" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07">
+            <Targets num="1" id0="11"/>
+        </Entity>
+        <Entity template="RMG Outside Constraint" id="0" pos="0 0.00100000005 2.62499905" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07">
+            <Targets num="1" id0="10"/>
+        </Entity>
+        <Entity template="RMG Outside Constraint" id="0" pos="0.625 0.00100000005 3.24999905" rot="1 0 0 0 1 0 0 0 1">
+            <Targets num="1" id0="7"/>
+        </Entity>
+        <Entity template="RMG Outside Constraint" id="0" pos="3.62499809 0.00100000005 3.24999905" rot="1 0 0 0 1 0 0 0 1">
+            <Targets num="1" id0="8"/>
+        </Entity>
+        <Entity template="RMG Outside Constraint" id="0" pos="4.24999809 0.00100000005 2.62499905" rot="1.41561031e-07 0 1 0 1 0 -1 0 1.41561031e-07">
+            <Targets num="1" id0="9"/>
+        </Entity>
+        <Entity template="RMG Outside Constraint" id="0" pos="4.24999809 0.00100000005 0.625" rot="1.41561031e-07 0 1 0 1 0 -1 0 1.41561031e-07">
+            <Targets num="1" id0="22"/>
+        </Entity>
+        <Entity template="RMG Outside Constraint" id="0" pos="3.62500191 0.00100000005 0" rot="1 0 0 0 1 0 0 0 1">
+            <Targets num="1" id0="21"/>
+        </Entity>
+        <Entity template="metal_railing" id="0" pos="3.12499619 0.400000006 0.154993057" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1"/>
+        <Entity template="metal_railing" id="0" pos="4.12499809 0.399999976 1.125" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08"/>
+        <Entity template="door_threshold_wood_01" id="0" pos="2.625 0 0.124999046" rot="1 0 0 0 1 0 0 0 1" group="1"/>
+        <Entity template="door_wood_01" id="0" pos="2.625 0 0.124999046" rot="1 0 0 0 1 0 0 0 1" group="1"/>
+        <Entity template="door_frame_wood_01" id="0" pos="2.625 0 0.125" rot="1 0 0 0 1 0 0 0 1" group="1"/>
+        <Entity template="door_threshold_wood_01" id="0" pos="0.125 0 1.62499905" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" group="2"/>
+        <Entity template="door_wood_01" id="0" pos="0.125 0 1.62499905" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" group="2"/>
+        <Entity template="door_frame_wood_01" id="0" pos="0.125 0 1.625" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" group="2"/>
     </Prefab>
     <Prefab name="MRMGT_room_service_spawn_10x3" tags="spawn_entrance" themes="apartment" width="10.25" height="3.25" formatVersion="2" noEnemies="true">
         <Terrain width="40" height="12" LayerConstant="16711680">
