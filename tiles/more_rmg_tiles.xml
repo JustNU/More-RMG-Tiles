@@ -5044,7 +5044,7 @@
         <Entity template="window_frame" id="0" pos="1.625 8.8817842e-16 3.375" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="curtain_01_01" id="0" pos="1.625 8.3223398e-08 3.25" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024" layerMask="1"/>
     </Prefab>
-    <Prefab name="MRMGT_rat_work_hallway_2x7" tags="hallway,room" themes="residential,apartment" width="2.2500458" height="7.2500038" formatVersion="2" minAnchors="1">
+    <Prefab name="MRMGT_rat_work_hallway_2x7" tags="room,hallway" themes="apartment,residential" width="2.2500458" height="7.2500038" formatVersion="2" minAnchors="1">
         <Terrain width="8" height="28" LayerConstant="0">
             <Materials>
                 <Material>tiles_02</Material>
@@ -5080,7 +5080,7 @@
         <Entity template="crate_03" id="0" pos="1.56214142 0.312301666 0.850776672" rot="0.965925872 0 0.258819044 0 1 0 -0.258819044 0 0.965925872"/>
         <Entity template="crate_03" id="0" pos="1.49750137 0.95295012 0.818454742" rot="0.984807909 0 -0.173648179 0 1 0 0.173648179 0 0.984807909"/>
         <Entity template="gallon_metal_02" id="0" pos="0.721027374 1.53604805 6.55282211" rot="-0.925417602 -0.342020154 -0.163175762 0.17364794 -8.44168024e-09 -0.984808326 0.336824417 -0.939692914 0.0593911037"/>
-        <Entity template="plastic_gallon_blue" id="0" pos="0.588970184 3.48527765 2.80340195" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="plastic_gallon_blue" id="0" pos="0.58896637 1.12101972 2.80340195" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="gallon_metal_02" id="0" pos="0.991931915 0.235827014 0.507362366" rot="0.766044557 0 -0.642787635 0 1 0 0.642787635 0 0.766044557"/>
         <Entity template="window_glass" id="0" pos="2.12504578 0 1.125" rot="0 0 1.00000012 0 1 0 -1.00000012 0 0"/>
         <Entity template="window_frame" id="0" pos="2.12504578 0 1.125" rot="0 0 1.00000012 0 1 0 -1.00000012 0 0"/>
@@ -5103,9 +5103,9 @@
         <Entity template="door_threshold_wood_01" id="0" pos="2.125 0 3.62493896" rot="0 0 1.00000083 0 1 0 -1.00000083 0 0" group="1"/>
         <Entity template="door_wood_01" id="0" pos="2.125 0 3.62493896" rot="0 0 1.00000083 0 1 0 -1.00000083 0 0" group="1"/>
         <Entity template="door_frame_wood_01" id="0" pos="2.125 0 3.62493896" rot="0 0 1.00000083 0 1 0 -1.00000083 0 0" group="1"/>
-        <Entity template="crate_01" id="0" pos="0.625045776 3.07621694 3.125" rot="-0.98480773 -5.61942812e-08 -0.173648641 -4.37113563e-08 1 -7.5710318e-08 0.173648641 -6.69697116e-08 -0.98480773"/>
-        <Entity template="plastic_gallon_red" id="0" pos="0.723434448 2.96566463 3.94887924" rot="0.906307876 0.421010196 0.0368335396 3.71111497e-08 -0.0871556625 0.996194959 0.42261827 -0.90285933 -0.0789898708"/>
-        <Entity template="crate_01" id="0" pos="0.625045776 2.60258412 3.625" rot="-1.00000143 0 4.17232513e-07 0 1 0 -4.17232513e-07 0 -1.00000143"/>
+        <Entity template="crate_01" id="0" pos="0.625045776 0.710982561 3" rot="-0.98480773 -5.61942812e-08 -0.173648641 -4.37113563e-08 1 -7.5710318e-08 0.173648641 -6.69697116e-08 -0.98480773"/>
+        <Entity template="plastic_gallon_red" id="0" pos="0.723434448 0.600430131 3.69887924" rot="0.906307876 0.421010196 0.0368335396 3.71111497e-08 -0.0871556625 0.996194959 0.42261827 -0.90285933 -0.0789898708"/>
+        <Entity template="crate_01" id="0" pos="0.750045776 0.237232521 3.5" rot="-1.00000143 0 4.17232513e-07 0 1 0 -4.17232513e-07 0 -1.00000143"/>
         <Entity template="Wall" id="0" pos="2.12504578 0 0.125001907" rot="1 0 0 0 1 0 0 0 1">
             <Wall numTrees="1" numNodes="5">
                 <Branch parent="0" p0="0 0" p1="0 7.00000191" p2="-2 7.00000191" p3="-2 0" p4="0 0"/>
