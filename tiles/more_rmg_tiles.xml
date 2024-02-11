@@ -7087,7 +7087,7 @@
         <Entity template="Alt. Spawn Point" id="0" pos="0.75 0 1.99999905" rot="-1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 -1"/>
         <Entity template="Alt. Spawn Point" id="0" pos="0.75 0 0.749999046" rot="-1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 -1"/>
     </Prefab>
-    <Prefab name="MRMGT_university_assault_living_6x5" tags="living,room" themes="residential,apartment" width="6.2500019" height="5.2500014" formatVersion="2" minAnchors="1">
+    <Prefab name="MRMGT_university_assault_living_6x5" tags="room,living" themes="residential,apartment" width="6.2500019" height="5.2500014" formatVersion="2" minAnchors="1">
         <Terrain width="24" height="20" LayerConstant="255">
             <Materials>
                 <Material>floor_wood</Material>
@@ -7124,7 +7124,6 @@
         <Entity template="desk_hotel_01" id="0" pos="3.62500191 0.457283854 4.00000095" rot="0 0 -0.99999994 0 1 0 0.99999994 0 0"/>
         <Entity template="desk_hotel_01" id="0" pos="3 0.457283854 2.62499905" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="chair_hotel_01" id="0" pos="1.75 0.60190028 2.62500095" rot="1.00000024 0 9.68575478e-08 0 1 0 -9.68575478e-08 0 1.00000024"/>
-        <Entity template="chair_hotel_01" id="0" pos="2.37500191 0.60190028 2.26500034" rot="0.258817762 0 -0.965926111 0 1 0 0.965926111 0 0.258817762"/>
         <Entity template="chair_hotel_01" id="0" pos="0.750001907 0.60190022 4.57999992" rot="-0.0871600136 -7.56103002e-09 0.996195197 3.32633476e-10 0.999999881 7.61901386e-09 -0.996195078 9.95446614e-10 -0.0871599391"/>
         <Entity template="chair_hotel_01" id="0" pos="4.12500191 0.60190028 2.62500095" rot="-0.996195495 0 -0.0871562287 0 1 0 0.0871562287 0 -0.996195495"/>
         <Entity template="chair_hotel_01" id="0" pos="4.12500191 0.60190028 3.50000095" rot="-0.984808743 0 0.17364791 0 1 0 -0.17364791 0 -0.984808743"/>
